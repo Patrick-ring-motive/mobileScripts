@@ -34,7 +34,7 @@ document.body.appendChild(sty);
 
 
 
-if(document.domain.indexOf('reddit')>-1){// reddit
+if((document.domain.indexOf('reddit')>-1)&&(window.location.href.indexOf('comments')==-1)){// reddit
 
 var sty=document.createElement('style');
 
