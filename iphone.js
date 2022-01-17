@@ -59,7 +59,7 @@ function hidePromoted(){
 
     }
     
-        var spans=document.getElementsByClassName('sponsored');
+        var spans=document.querySelectorAll('a[rel*="sponsored"]');
 
     for(var i=0;i<spans.length;i++){
 
