@@ -58,6 +58,16 @@ function hidePromoted(){
     }
 
     }
+    
+        var spans=document.getElementsByClassName('sponsored');
+
+    for(var i=0;i<spans.length;i++){
+
+     
+    spans[i].parentElement.parentElement.parentElement.style.display='none';
+    
+
+    }
 
         var h3=document.getElementsByTagName('h3');
 
