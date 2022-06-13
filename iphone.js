@@ -24,6 +24,8 @@ sty.innerHTML=sty.innerHTML+' div[id*="primis_container_div"]{display:none;visib
                 sty.innerHTML=sty.innerHTML+' #frb-main{display:none;visibility:hidden;}';
           sty.innerHTML=sty.innerHTML+' #frb-inline{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}';
          sty.innerHTML=sty.innerHTML+' #frb-nag{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}';
+		 sty.innerHTML=sty.innerHTML+' div.XPromoPill{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}';
+		 
 
 
 
@@ -42,8 +44,12 @@ if((document.domain.indexOf('reddit')>-1)){
 
 for(var i=0;i<stuff.length;i++){
 var compStyles = window.getComputedStyle(stuff[i]);
+if(stuff[i].tagName=='A'){stuff[i].style.color='white';continue;}
 
-    if(compStyles.getPropertyValue('background').indexOf('rgb(255, 255, 255)'>=1)) {stuff[i].style.backgroundColor='#1A1A1B';stuff[i].style.color='white';}
+    if(compStyles.getPropertyValue('background').indexOf('rgb(255, 255, 255)'>=1)) {
+		
+		stuff[i].style.backgroundColor='#1A1A1B';stuff[i].style.color='white';
+		}
  if(stuff[i].textContent.length>0) {stuff[i].style.color='white';}
 }
 }
