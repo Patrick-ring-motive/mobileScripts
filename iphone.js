@@ -93,9 +93,23 @@ function hidePromoted(){
 
 }
 
+//reddit darkmode
+var stuff = document.getElementsByTagName('*');
+
+for(var i=0;i<stuff.length;i++){
+var compStyles = window.getComputedStyle(stuff[i]);
+
+    if(compStyles.getPropertyValue('background').indexOf('rgb(255, 255, 255)'>=1)) {stuff[i].style.background='#1A1A1B';stuff[i].style.color='white';}
+
+}
 
 
 }
+
+
+
+
+
 
 if(window.location.host.indexOf('fandom.com')>-1){
 var sty=document.createElement('style');
