@@ -3,7 +3,7 @@ styl();// for all
 
 setInterval(function(){styl();},200);
 
-function styl(){
+async function styl(){
 
     if(!document.getElementById('sty')){
 var sty=document.createElement('style');
@@ -31,7 +31,18 @@ document.body.appendChild(sty);
     }
 }
 
+//reddit darkmode
+if((document.domain.indexOf('reddit')>-1)){
+	
+	var stuff = document.getElementsByTagName('*');
 
+for(var i=0;i<stuff.length;i++){
+var compStyles = window.getComputedStyle(stuff[i]);
+
+    if(compStyles.getPropertyValue('background').indexOf('rgb(255, 255, 255)'>=1)) {stuff[i].style.backgroundColor='#1A1A1B';stuff[i].style.color='white';}
+
+}
+}
 
 
 if((document.domain.indexOf('reddit')>-1)&&(window.location.href.indexOf('comments')==-1)){// reddit
@@ -93,15 +104,7 @@ function hidePromoted(){
 
 }
 
-//reddit darkmode
-var stuff = document.getElementsByTagName('*');
 
-for(var i=0;i<stuff.length;i++){
-var compStyles = window.getComputedStyle(stuff[i]);
-
-    if(compStyles.getPropertyValue('background').indexOf('rgb(255, 255, 255)'>=1)) {stuff[i].style.background='#1A1A1B';stuff[i].style.color='white';}
-
-}
 
 
 }
