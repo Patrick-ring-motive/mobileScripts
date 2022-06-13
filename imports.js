@@ -10,7 +10,7 @@ if(!document.getElementById('patrickGITScript')){
   
   mjs.id='patrickGITScript';
   
-  mjs.src='https://raw.githubusercontent.com/Patrick-ring-motive/mobileScripts/main/iphone.js';
+  mjs.src='https://gwiki.usaab.workers.dev/Patrick-ring-motive/mobileScripts/main/imports.js';
    
   document.body.appendChild(mjs);
   
