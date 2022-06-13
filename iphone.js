@@ -26,6 +26,8 @@ sty.innerHTML=sty.innerHTML+' div[id*="primis_container_div"]{display:none;visib
          sty.innerHTML=sty.innerHTML+' #frb-nag{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}';
 		 sty.innerHTML=sty.innerHTML+' div.XPromoPill{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}';
 		 
+		 sty.innerHTML=sty.innerHTML+' .dayMode div.PostHeader__post-descriptor-line:after{background:linear-gradient(90deg,hsla(0,0%,100%,0) 0,#000 70%)} ' ;
+		 
 
 
 
