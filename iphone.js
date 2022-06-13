@@ -31,6 +31,10 @@ document.body.appendChild(sty);
     }
 }
 
+redditDark();
+setInterval(async function(){redditDark();},500);
+
+async function redditDark(){
 //reddit darkmode
 if((document.domain.indexOf('reddit')>-1)){
 	
@@ -44,6 +48,8 @@ var compStyles = window.getComputedStyle(stuff[i]);
 }
 }
 
+
+}
 
 if((document.domain.indexOf('reddit')>-1)&&(window.location.href.indexOf('comments')==-1)){// reddit
 
