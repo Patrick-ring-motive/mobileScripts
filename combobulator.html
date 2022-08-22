@@ -10,22 +10,40 @@
   <br>
   <button id="combobulate" value="combobulate">combobulate</button>
   <br>
+    <button id="spoof" value="spoof">spoof</button>
+  <br>
   <p>combobulated: </p><p id="comobulated"></p>
   <br>
   <button id="copy" value="copy">copy</button>
   <script>
-    
+    var zw="​";
     document.getElementById('comobulate').onclick=function(){
   var text=document.getElementById('intext').value;
       
       text=combobulate(text);
   document.getElementById('comobulated').innerText=text;
   };
-  
+  document.getElementById('spoof').onclick=function(){
+  var text=document.getElementById('intext').value;
+      
+      text=spoof(text);
+  document.getElementById('comobulated').innerText=text;
+  };
     
     function combobulate(txt){
     
     return txt;
+    }
+    
+    
+        function spoof(txt){
+    var zw="​";
+          var otxt="";
+          for(var i=0;i<txt.length;i++){
+          otxt = otxt + txt[i] + zw;
+          }
+          
+    return otxt;
     }
   </script>
   </body>
