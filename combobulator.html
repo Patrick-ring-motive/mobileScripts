@@ -6,13 +6,28 @@
 
   </head>
   <body>
-    <p>Paste Text here: </p><input></input>
+    <p>Paste Text here: </p><input id="intext"></input>
   <br>
-  <button value="combobulate">combobulate</button>
+  <button id="combobulate" value="combobulate">combobulate</button>
   <br>
   <p>combobulated: </p><p id="comobulated"></p>
   <br>
-  <button value="copy">copy</button>
+  <button id="copy" value="copy">copy</button>
+  <script>
+    
+    document.getElementById('comobulate').onclick=function(){
+  var text=document.getElementById('intext').value;
+      
+      text=combobulate(text);
+  document.getElementById('comobulated').innerText=text;
+  };
+  
+    
+    function combobulate(txt){
+    
+    return txt;
+    }
+  </script>
   </body>
 </html>
 Footer
