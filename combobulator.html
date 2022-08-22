@@ -12,22 +12,24 @@
   <br>
     <button id="spoof" value="spoof">spoof</button>
   <br>
-  <p>combobulated: </p><p id="comobulated"></p>
+  <p>combobulated: </p><p id="combobulated"></p>
   <br>
   <button id="copy" value="copy">copy</button>
   <script>
     var zw="​";
-    document.getElementById('comobulate').onclick=function(){
+    document.getElementById('combobulate').onclick=function(){
   var text=document.getElementById('intext').value;
       
       text=combobulate(text);
-  document.getElementById('comobulated').innerText=text;
+  document.getElementById('combobulated').innerText=text;
   };
+    
+    
   document.getElementById('spoof').onclick=function(){
   var text=document.getElementById('intext').value;
       
       text=spoof(text);
-  document.getElementById('comobulated').innerText=text;
+  document.getElementById('combobulated').innerText=text;
   };
     
     function combobulate(txt){
