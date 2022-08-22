@@ -47,6 +47,12 @@
           
     return otxt;
     }
+    
+   document.getElementById('copy').onclick=  function (){
+    
+      navigator.clipboard.writeText(document.getElementById('combobulated').innerText);
+    
+    }
   </script>
   </body>
 </html>
