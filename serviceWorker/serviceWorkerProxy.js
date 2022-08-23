@@ -55,7 +55,7 @@ self.addEventListener('fetch', event => {
      
 
       
-          fetch(event.request).then(response => {
+        return  fetch(event.request).then(response => {
             // Put a copy of the response in the runtime cache.
            var responseClone = response.clone();
            console.log(responseClone);
