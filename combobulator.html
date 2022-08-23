@@ -37,7 +37,7 @@
       document.getElementById('unspace').onclick=function(){
   var text=document.getElementById('intext').value;
       
-      text=text.replaceAll(' ','⠀');
+      text=text.replaceAll(' ','⠀').replaceAll('.','․').replaceAll('?','？');
   document.getElementById('combobulated').innerText=text;
   };
     
