@@ -52,16 +52,23 @@ self.addEventListener('fetch', event => {
   // Skip cross-origin requests, like those for Google Analytics.
   if (event.request.url.startsWith(self.location.origin)) {
     event.respondWith(
+      caches.match(event.request).then(cachedResponse => {
+        if (cachedResponse) {
+         console.log(cachedResponse.headers);
+          return cachedResponse;
+        }
 
-           fetch(event.request).then(response => {//2
+        return caches.open(RUNTIME).then(cache => {
+          return fetch(event.request).then(response => {
             // Put a copy of the response in the runtime cache.
            var responseClone = response.clone();
            console.log(responseClone);
-            return cache.put(event.request, responseClone ).then(() => {//1
+            return cache.put(event.request, responseClone ).then(() => {
               return responseClone;
-            });//1
-          });//2
-
+            });
+          });
+        });
+      })
     );
   }
 });
