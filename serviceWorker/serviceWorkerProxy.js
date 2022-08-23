@@ -59,7 +59,7 @@ self.addEventListener('fetch', event => {
             // Put a copy of the response in the runtime cache.
            var responseClone = response.clone();
          
-         var bdy =  response.body.text();
+         var bdy =  await response.body.text();
    
          console.log(bdy);
            console.log(responseClone);
