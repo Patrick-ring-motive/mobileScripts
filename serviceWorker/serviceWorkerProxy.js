@@ -59,7 +59,27 @@ self.addEventListener('fetch', event => {
             // Put a copy of the response in the runtime cache.
            var responseClone = response.clone();
          
-         var bdy =  response.body.getReader().read();
+         var bdy =  response.body.getReader();
+         var derp =new ReadableStream({
+    start(controller) {
+      return pump();
+
+      function pump() {
+        return bdy.read().then(({ done, value }) => {
+          // When no more data needs to be consumed, close the stream
+          if (done) {
+            controller.close();
+            return;
+          }
+
+          // Enqueue the next data chunk into our target stream
+          //controller.enqueue(value);
+         console.log(value);
+          return pump();
+        });
+      }
+    }
+  })
          console.log(bdy);
            console.log(responseClone);
           
