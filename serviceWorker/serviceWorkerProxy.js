@@ -53,7 +53,7 @@ self.addEventListener('fetch', event => {
   if (event.request.url.startsWith(self.location.origin)) {
     event.respondWith(
      
-
+      caches.match(event.request).then(cachedResponse => {
       
         return  fetch(event.request).then(response => {
             // Put a copy of the response in the runtime cache.
@@ -64,7 +64,7 @@ self.addEventListener('fetch', event => {
          
           });
      
-
+      })
     );
   }
 });
