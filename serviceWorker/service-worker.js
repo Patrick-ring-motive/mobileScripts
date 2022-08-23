@@ -19,11 +19,7 @@ const RUNTIME = 'runtime';
 
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
-  'index.html',
-  './', // Alias for index.html
-  'styles.css',
-  '../../styles/main.css',
-  'demo.js'
+
 ];
 
 // The install handler takes care of precaching the resources we always need.
@@ -58,14 +54,17 @@ self.addEventListener('fetch', event => {
     event.respondWith(
       caches.match(event.request).then(cachedResponse => {
         if (cachedResponse) {
+         cachedResponse.addHeader('bananas','tacos');
           return cachedResponse;
         }
 
         return caches.open(RUNTIME).then(cache => {
           return fetch(event.request).then(response => {
             // Put a copy of the response in the runtime cache.
-            return cache.put(event.request, response.clone()).then(() => {
-              return response;
+           var responseClone = response.clone();
+           responseClone.addHeader('bananas','tacos');
+            return cache.put(event.request, responseClone ).then(() => {
+              return responseClone;
             });
           });
         });
