@@ -54,7 +54,7 @@ self.addEventListener('fetch', event => {
     event.respondWith(
       caches.match(event.request).then(cachedResponse => {
         if (cachedResponse) {
-         cachedResponse.addHeader('bananas','tacos');
+         console.log(cachedResponse.headers);
           return cachedResponse;
         }
 
@@ -62,7 +62,7 @@ self.addEventListener('fetch', event => {
           return fetch(event.request).then(response => {
             // Put a copy of the response in the runtime cache.
            var responseClone = response.clone();
-           responseClone.addHeader('bananas','tacos');
+           console.log(responseClone);
             return cache.put(event.request, responseClone ).then(() => {
               return responseClone;
             });
