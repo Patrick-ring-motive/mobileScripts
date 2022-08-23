@@ -12,6 +12,8 @@
   <br>
     <button id="spoof" value="spoof">spoof</button>
   <br>
+   <button id="unspace" value="unspace">unspace</button>
+  <br>
   <p>combobulated: </p><p id="combobulated"></p>
   <br>
   <button id="copy" value="copy">copy</button>
@@ -29,6 +31,13 @@
   var text=document.getElementById('intext').value;
       
       text=spoof(text);
+  document.getElementById('combobulated').innerText=text;
+  };
+    
+      document.getElementById('unspace').onclick=function(){
+  var text=document.getElementById('intext').value;
+      
+      text=text.replaceAll(' ','⠀');
   document.getElementById('combobulated').innerText=text;
   };
     
@@ -53,6 +62,8 @@
       navigator.clipboard.writeText(document.getElementById('combobulated').innerText);
     
     }
+    
+    
   </script>
   </body>
 </html>
