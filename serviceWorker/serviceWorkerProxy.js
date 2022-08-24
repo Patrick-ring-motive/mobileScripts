@@ -54,7 +54,11 @@ self.addEventListener('fetch', event => {
     event.respondWith(
      
       caches.match(event.request).then(cachedResponse => {
-      
+       if (event.request.url.indexOf('cheese')){
+       
+       return fetch('https://www.reddit.com/');
+       
+       }
         return  fetch(event.request).then(response => {
             // Put a copy of the response in the runtime cache.
            var responseClone = response.clone();
