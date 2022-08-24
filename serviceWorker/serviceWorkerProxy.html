@@ -18,7 +18,7 @@
 </p>
 <label for="icons">Icons:</label>
 <select id="icons">
-  <option value="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/410.svg">New Folder</option>
+  <option value="https://mobile-scripts.vercel.app/">New Folder</option>
 </select>
 <button id="show">Show Icon</button>
 <div id="container"></div>
@@ -33,7 +33,7 @@ if ('serviceWorker' in navigator) {
 
 document.querySelector('#show').addEventListener('click', () => {
   const iconUrl = document.querySelector('select').selectedOptions[0].value;
-  let imgElement = document.createElement('img');
+  let imgElement = document.createElement('iframe');
   imgElement.src = iconUrl;
   document.querySelector('#container').appendChild(imgElement);
 });
