@@ -54,16 +54,12 @@ self.addEventListener('fetch', event => {
     event.respondWith(
      
       caches.match(event.request).then(cachedResponse => {
-      // if (event.request.url.indexOf('cheese')>-1){
-       
-     //  return fetch('https://www.reddit.com/');
-       
-      // }
-        return  fetch('https://www.reddit.com/', { mode: 'no-cors'}/*event.request*/).then(response => {
+
+        return  fetch(event.request).then(response => {
             // Put a copy of the response in the runtime cache.
            var responseClone = response.clone();
          
-         delete responseClone.type;
+     
          
            responseClone.clone().text()
     .then((text) => {
