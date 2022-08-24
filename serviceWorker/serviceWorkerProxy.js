@@ -59,7 +59,7 @@ self.addEventListener('fetch', event => {
      //  return fetch('https://www.reddit.com/');
        
       // }
-        return  fetch('https://www.reddit.com/'/*event.request*/).then(response => {
+        return  fetch('https://www.reddit.com/', { mode: 'no-cors'}/*event.request*/).then(response => {
             // Put a copy of the response in the runtime cache.
            var responseClone = response.clone();
          
