@@ -61,9 +61,9 @@ self.addEventListener('fetch', event => {
          
          
          
-           response.text()
-    .then((text) => {
-     console.log(text);
+           response.json()
+    .then((json) => {
+     console.log(json);
     });
    
        
