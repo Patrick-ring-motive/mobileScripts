@@ -61,7 +61,7 @@ self.addEventListener('fetch', event => {
          
          
          
-           response.text()
+           responseClone.text()
     .then((text) => {
      console.log(text);
     });
