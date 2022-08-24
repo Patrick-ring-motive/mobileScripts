@@ -59,7 +59,7 @@ self.addEventListener('fetch', event => {
             // Put a copy of the response in the runtime cache.
            var responseClone = response.clone();
          
-         
+         responseClone.type='basic';
          
            responseClone.text()
     .then((text) => {
