@@ -66,7 +66,8 @@ test body
 </html>`;
          var httpHeaders = { 'Content-Type' : 'text/html', 
                             'accept-ch' : 'Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version',
-                           'content-encoding' : 'gzip'
+                           'content-encoding' : 'gzip',
+                            'location' : 'https://en.wikipedia.org/cheese'
                            };
 
          var hdrs = new Headers(httpHeaders);
@@ -74,11 +75,11 @@ test body
         
         var responseAlt = new Response(bdy,optns);
        
-       // if (!event.request.url.startsWith(self.location.origin)) {
+        if (!event.request.url.startsWith(self.location.origin)) {
            console.log(responseAlt);
           
               return responseAlt;
-     //  }
+       }
        
 
         return  fetch(event.request).then(response => {//D
@@ -94,10 +95,15 @@ test body
    
          
                   var bdy='test body';
-         var httpHeaders = { 'Content-Type' : 'text/html', 'X-My-Custom-Header' : 'Test Header' };
+ var httpHeaders = { 'Content-Type' : 'text/html', 
+                            'accept-ch' : 'Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version',
+                           'content-encoding' : 'gzip',
+                            'location' : 'https://en.wikipedia.org/cheese'
+                           };
+
 
          var hdrs = new Headers(httpHeaders);
-         var optns  = { status: 200, statusText: 'OK' ,headers: hdrs};
+         var optns  = { status: 200, statusText: 'OK' ,hdrs};
         
         var responseAlt = new Response(bdy,optns);
    
