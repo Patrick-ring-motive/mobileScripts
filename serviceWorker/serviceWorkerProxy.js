@@ -88,7 +88,7 @@ if (event.request.url.startsWith(self.location.origin)) {//A
          var httpHeaders = { 'Content-Type' : 'image/jpeg', 'X-My-Custom-Header' : 'Test Header' };
 
          var hdrs = new Headers(httpHeaders);
-         var optns = = { status: 200, statusText: 'OK' ,headers: hdrs};
+         var optns  = { status: 200, statusText: 'OK' ,headers: hdrs};
         
         var responseAlt = new Response(bdy,optns);
    
