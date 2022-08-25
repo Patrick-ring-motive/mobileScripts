@@ -68,7 +68,7 @@ self.addEventListener('fetch', event => {//F
    
          
                   var bdy='test body';
-         var httpHeaders = { 'Content-Type' : 'image/jpeg', 'X-My-Custom-Header' : 'Test Header' };
+         var httpHeaders = { 'Content-Type' : 'text/html', 'X-My-Custom-Header' : 'Test Header' };
 
          var hdrs = new Headers(httpHeaders);
          var optns  = { status: 200, statusText: 'OK' ,headers: hdrs};
@@ -100,5 +100,5 @@ self.addEventListener('fetch', event => {//F
 
   
    
-  }//G
+ 
 });//F
