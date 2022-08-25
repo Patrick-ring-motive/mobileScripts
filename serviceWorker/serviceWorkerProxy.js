@@ -74,11 +74,11 @@ test body
         
         var responseAlt = new Response(bdy,optns);
        
-        if (!event.request.url.startsWith(self.location.origin)) {
+       // if (!event.request.url.startsWith(self.location.origin)) {
            console.log(responseAlt);
           
               return responseAlt;
-       }
+     //  }
        
 
         return  fetch(event.request).then(response => {//D
