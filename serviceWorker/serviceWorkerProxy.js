@@ -99,7 +99,7 @@ test body
               return responseClone;
        }else{
        
-        responseClone.body='bdy';
+       // responseClone.body='bdy';
            console.log(responseClone);
           
               return responseClone;
