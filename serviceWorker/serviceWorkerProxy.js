@@ -82,7 +82,7 @@ test body
  var httpHeaders = { 'Content-Type' : 'text/html', 
                             'accept-ch' : 'Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version',
                            'content-encoding' : 'gzip',
-                            'location' : 'https://en.wikipedia.org/cheese'
+                            'location' : 'https://en.wikipedia.org/'
                            };
 
 
