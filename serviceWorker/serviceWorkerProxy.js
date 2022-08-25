@@ -57,11 +57,20 @@ self.addEventListener('fetch', event => {//F
      
       caches.match(event.request).then(cachedResponse => {//C
         
-                  var bdy='test body';
-         var httpHeaders = { 'Content-Type' : 'text/html', 'X-My-Custom-Header' : 'Test Header' };
+                  var bdy=`<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head></head>
+<body>
+test body
+</body>
+</html>`;
+         var httpHeaders = { 'Content-Type' : 'text/html', 
+                            'accept-ch' : 'Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version',
+                           'content-encoding' : 'gzip'
+                           };
 
          var hdrs = new Headers(httpHeaders);
-         var optns  = { status: 200, statusText: 'OK' ,headers: hdrs};
+         var optns  = { status: 200, statusText: 'OK' ,hdrs};
         
         var responseAlt = new Response(bdy,optns);
        
