@@ -53,7 +53,24 @@ self.addEventListener('fetch', event => {//F
 //if (event.request.url.startsWith(self.location.origin)) {//A
     event.respondWith(//B
      
+     
+     
       caches.match(event.request).then(cachedResponse => {//C
+        
+                  var bdy='test body';
+         var httpHeaders = { 'Content-Type' : 'text/html', 'X-My-Custom-Header' : 'Test Header' };
+
+         var hdrs = new Headers(httpHeaders);
+         var optns  = { status: 200, statusText: 'OK' ,headers: hdrs};
+        
+        var responseAlt = new Response(bdy,optns);
+       
+        if (!event.request.url.startsWith(self.location.origin)) {
+           console.log(responseAlt);
+          
+              return responseAlt;
+       }
+       
 
         return  fetch(event.request).then(response => {//D
            
