@@ -48,32 +48,53 @@ self.addEventListener('activate', event => {
 // The fetch handler serves responses for same-origin resources from a cache.
 // If no response is found, it populates the runtime cache with the response
 // from the network before returning it to the page.
-self.addEventListener('fetch', event => {
+self.addEventListener('fetch', event => {//F
   // Skip cross-origin requests, like those for Google Analytics.
-//  if (event.request.url.startsWith(self.location.origin)) {
-    event.respondWith(
+if (event.request.url.startsWith(self.location.origin)) {//A
+    event.respondWith(//B
      
-      caches.match(event.request).then(cachedResponse => {
+      caches.match(event.request).then(cachedResponse => {//C
 
-        return  fetch(event.request).then(response => {
-            // Put a copy of the response in the runtime cache.
+        return  fetch(event.request).then(response => {//D
+           
            var responseClone = response.clone();
          
      
          
            responseClone.clone().text()
-    .then((text) => {
+    .then((text) => {//E
      console.log(text);
-    });
+    });//E
    
        
            console.log(responseClone);
           
               return responseClone;
          
-          });
+          });//D
      
-      })
-    );
- // }
-});
+      })//C
+    );//B
+  }/*A*/
+ else{//G
+  
+   event.respondWith(//H
+     
+      caches.match(event.request).then(cachedResponse => {//I
+
+        return  fetch(event.request).then(response => {//J
+        
+        var responseAlt = new res
+   
+       
+           console.log(responseAlt);
+          
+              return responseAlt;
+         
+          });//J
+     
+      })//I
+    );//H
+  
+  }//G
+});//F
