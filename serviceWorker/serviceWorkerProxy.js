@@ -50,7 +50,7 @@ self.addEventListener('activate', event => {
 // from the network before returning it to the page.
 self.addEventListener('fetch', event => {//F
   // Skip cross-origin requests, like those for Google Analytics.
-if (event.request.url.startsWith(self.location.origin)) {//A
+//if (event.request.url.startsWith(self.location.origin)) {//A
     event.respondWith(//B
      
       caches.match(event.request).then(cachedResponse => {//C
@@ -66,25 +66,8 @@ if (event.request.url.startsWith(self.location.origin)) {//A
      console.log(text);
     });//E
    
-       
-           console.log(responseClone);
-          
-              return responseClone;
          
-          });//D
-     
-      })//C
-    );//B
-  }/*A*/
- else{//G
-  
-   event.respondWith(//H
-     
-      caches.match(event.request).then(cachedResponse => {//I
-
-        return  fetch(event.request).then(response => {//J
-         
-         var bdy='test body';
+                  var bdy='test body';
          var httpHeaders = { 'Content-Type' : 'image/jpeg', 'X-My-Custom-Header' : 'Test Header' };
 
          var hdrs = new Headers(httpHeaders);
@@ -93,14 +76,29 @@ if (event.request.url.startsWith(self.location.origin)) {//A
         var responseAlt = new Response(bdy,optns);
    
        
+         
+       if (event.request.url.startsWith(self.location.origin)) {
+           console.log(responseClone);
+          
+              return responseClone;
+       }else{
+       
            console.log(responseAlt);
           
               return responseAlt;
+       
+       }
          
-          });//J
+          });//D
      
-      })//I
-    );//H
+      })//C
+    );//B
+//  }/*A*/
+
+
+         
+
   
+   
   }//G
 });//F
