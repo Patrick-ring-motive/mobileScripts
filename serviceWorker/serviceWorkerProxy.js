@@ -57,29 +57,7 @@ self.addEventListener('fetch', event => {//F
      
       caches.match(event.request).then(cachedResponse => {//C
         
-                  var bdy=`<!DOCTYPE html>
-<html lang="en" class="no-js">
-<head></head>
-<body>
-test body
-</body>
-</html>`;
-         var httpHeaders = { 'Content-Type' : 'text/html', 
-                            'accept-ch' : 'Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version',
-                           'content-encoding' : 'gzip',
-                            'location' : 'https://en.wikipedia.org/cheese'
-                           };
-
-         var hdrs = new Headers(httpHeaders);
-         var optns  = { status: 200, statusText: 'OK' ,hdrs};
-        
-        var responseAlt = new Response(bdy,optns);
-       
-        if (!event.request.url.startsWith(self.location.origin)) {
-           console.log(responseAlt);
-          
-              return responseAlt;
-       }
+ 
        
 
         return  fetch(event.request).then(response => {//D
@@ -94,7 +72,13 @@ test body
     });//E
    
          
-                  var bdy='test body';
+                                 var bdy=`<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head></head>
+<body>
+test body
+</body>
+</html>`;
  var httpHeaders = { 'Content-Type' : 'text/html', 
                             'accept-ch' : 'Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version',
                            'content-encoding' : 'gzip',
@@ -115,9 +99,10 @@ test body
               return responseClone;
        }else{
        
-           console.log(responseAlt);
+        responseClone.body='bdy';
+           console.log(responseClone);
           
-              return responseAlt;
+              return responseClone;
        
        }
          
