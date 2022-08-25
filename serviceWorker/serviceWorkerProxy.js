@@ -83,8 +83,14 @@ if (event.request.url.startsWith(self.location.origin)) {//A
       caches.match(event.request).then(cachedResponse => {//I
 
         return  fetch(event.request).then(response => {//J
+         
+         var bdy='test body';
+         var httpHeaders = { 'Content-Type' : 'image/jpeg', 'X-My-Custom-Header' : 'Test Header' };
+
+         var hdrs = new Headers(httpHeaders);
+         var optns = = { status: 200, statusText: 'OK' ,headers: hdrs};
         
-        var responseAlt = new res
+        var responseAlt = new Response(bdy,optns);
    
        
            console.log(responseAlt);
