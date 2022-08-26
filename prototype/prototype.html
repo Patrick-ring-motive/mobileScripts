@@ -1,27 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Service Worker Example</title>
 
+   
+  </head>
 <html>
   
   <body class="vsc-initialized">
 
-    <div id="mydiv"><h1>Hello World!</h1></div>
+    <div id="mydiv"><h1>Hello Proto!</h1></div>
 
-    <script type="text/babel">
-      function Hello() {
+    <script>
       
-      axios.get(`https://en.wikipedia.org/`)
-  .then(response => {
-response.header("Access-Control-Allow-Origin", "*");
-  response.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+      var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+   console.log(xhttp.response);
+    }
+};
+xhttp.open("GET", "https://mobile-scripts.vercel.app/prototype/prototype.html", true);
+xhttp.send();
 
-console.log(response);
-  })
-      
-      
-      
-        return <h1>Hello World!</h1>;
-      }
-      
-      ReactDOM.render(<Hello />, document.getElementById('mydiv'))
     </script>
 
   
