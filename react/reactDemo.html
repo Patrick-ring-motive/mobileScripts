@@ -12,6 +12,14 @@
 
     <script type="text/babel">
       function Hello() {
+      
+      axios.get(`https://jsonplaceholder.typicode.com/users`)
+  .then(response => {
+cconsole.log(response.data);
+  })
+      
+      
+      
         return <h1>Hello World!</h1>;
       }
       
