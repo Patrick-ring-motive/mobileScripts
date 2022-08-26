@@ -1,0 +1,29 @@
+
+<html>
+  
+  <body class="vsc-initialized">
+
+    <div id="mydiv"><h1>Hello World!</h1></div>
+
+    <script type="text/babel">
+      function Hello() {
+      
+      axios.get(`https://en.wikipedia.org/`)
+  .then(response => {
+response.header("Access-Control-Allow-Origin", "*");
+  response.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+
+console.log(response);
+  })
+      
+      
+      
+        return <h1>Hello World!</h1>;
+      }
+      
+      ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+    </script>
+
+  
+
+</body></html>
