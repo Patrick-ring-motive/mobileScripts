@@ -1,5 +1,5 @@
 persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/reddit.com/redditAdblock.css','link');
-
+ if(document.querySelector('button[class="XPromoPopup__actionButton"]')){document.querySelector('button[class="XPromoPopup__actionButton"]').click();}
 if((document.domain.indexOf('reddit')>-1)&&(window.location.href.indexOf('comments')==-1)){// reddit
 
 
@@ -10,7 +10,7 @@ setInterval(function(){hidePromoted();},2000);
 
 function hidePromoted(){
     
-    if(document.querySelector('button[class="XPromoPopup__actionButton"]')){document.querySelector('button[class="XPromoPopup__actionButton"]').click();}
+   
 
     var spans=document.getElementsByTagName('span');
 
