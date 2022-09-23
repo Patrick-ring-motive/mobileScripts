@@ -10,6 +10,9 @@ if(!document.getElementById(scriptURL)){
    let mjs=document.createElement(elem);
   
   mjs.id=scriptURL;
+ 
+  mjs.rel="stylesheet";
+  mjs.href=scriptURL;
   
   mjs.src=scriptURL + '?' + new Date().getTime();
    
