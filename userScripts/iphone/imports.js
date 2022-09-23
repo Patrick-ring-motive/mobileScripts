@@ -1,13 +1,13 @@
 
 
  
-window.persistScriptOnce = async function (scriptURL){
+window.persistScriptOnce = async function (scriptURL,elem){
 
 try{
 
 if(!document.getElementById(scriptURL)){
-   
-   let mjs=document.createElement('script');
+   if(!elem)elem={'script';}
+   let mjs=document.createElement(elem);
   
   mjs.id=scriptURL;
   
