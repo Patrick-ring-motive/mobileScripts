@@ -26,7 +26,7 @@ function hidePromoted(){
 
     for(var i=0;i<spans.length;i++){
 
-     let notComment=spans[i].parentElement.parentElement.parentElement
+     let notComment=spans[i].parentElement.parentElement.parentElement;
      
      if(!notComment.getAttribute('class')){notComment.style.display='none';}
     
