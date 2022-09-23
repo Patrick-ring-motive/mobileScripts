@@ -25,9 +25,9 @@ if(!document.getElementById(scriptURL)){
 }
 
 
-window.persistScript = async function(sURL){
-setInterval(async function(){persistScriptOnce(sURL);},500);
-persistScriptOnce(sURL);
+window.persistScript = async function(sURL,elem){
+setInterval(async function(){persistScriptOnce(sURL,elem);},500);
+persistScriptOnce(sURL,elem);
 }
 
 
