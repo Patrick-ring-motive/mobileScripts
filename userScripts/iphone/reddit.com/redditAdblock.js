@@ -24,8 +24,9 @@ function hidePromoted(){
 
     for(var i=0;i<spans.length;i++){
 
+     let notComment=spans[i].parentElement.parentElement.parentElement
      
-    spans[i].parentElement.parentElement.parentElement.style.display='none';
+     if(notComment.className!='CommentsPage'){notComment.style.display='none';}
     
 
     }
