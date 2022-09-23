@@ -1,4 +1,4 @@
-
+alert('hi');
 styl();// for all
 
 setInterval(function(){styl();},200);
