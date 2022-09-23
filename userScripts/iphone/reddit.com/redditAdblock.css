@@ -1,3 +1,3 @@
-.XPromoBottomBar{display:none;visibility:hidden;}
+.XPromoBottomBar{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
 
-div.ad-banner{display:none;visibility:hidden;}
+div.ad-banner{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
