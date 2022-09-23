@@ -2,12 +2,7 @@
 
 if((document.domain.indexOf('reddit')>-1)&&(window.location.href.indexOf('comments')==-1)){// reddit
 
-var sty=document.createElement('style');
-
-
-sty.innerHTML='div.ad-banner{display:none;visibility:hidden;}';
-
-document.body.appendChild(sty);
+persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/reddit.com/redditAdblock.css','style');
 
 hidePromoted();
 
