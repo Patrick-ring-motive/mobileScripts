@@ -9,6 +9,8 @@ hidePromoted();
 setInterval(function(){hidePromoted();},2000);
 
 function hidePromoted(){
+    
+    if(document.querySelector('button[class="XPromoPopup__actionButton"]')){document.querySelector('button[class="XPromoPopup__actionButton"]').click();}
 
     var spans=document.getElementsByTagName('span');
 
