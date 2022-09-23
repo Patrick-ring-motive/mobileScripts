@@ -1,3 +1,5 @@
 .XPromoBottomBar{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
 
 div.ad-banner{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
+
+article[style="z-index: 1;"]{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
