@@ -2,7 +2,7 @@
 
 if((document.domain.indexOf('reddit')>-1)&&(window.location.href.indexOf('comments')==-1)){// reddit
 
-persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/reddit.com/redditAdblock.css','style');
+persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/reddit.com/redditAdblock.css','link');
 
 hidePromoted();
 
