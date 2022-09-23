@@ -6,7 +6,7 @@ try{
 
 if(!document.getElementById('patrickGITScript')){
    
-   var mjs=document.createElement('script');
+   let mjs=document.createElement('script');
   
   mjs.id='patrickGITScript';
   
