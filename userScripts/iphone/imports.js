@@ -32,3 +32,5 @@ persistScriptOnce(sURL);
 
 
 persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/all.js');
+
+if(document.domain.indexOf('reddit.com')>-1){persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/reddit.com/redditAdblock.js');}
