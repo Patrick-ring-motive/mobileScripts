@@ -26,7 +26,7 @@ function hidePromoted(){
 
      let notComment=spans[i].parentElement.parentElement.parentElement
      
-     if(notComment.className!='CommentsPage'){notComment.style.display='none';}
+     if(!notComment.getAttribute('class')){notComment.style.display='none';}
     
 
     }
