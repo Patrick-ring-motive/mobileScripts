@@ -25,7 +25,7 @@ function hidePromoted(){
         var spans=document.querySelectorAll('a[rel*="sponsored"]');
 
     for(var i=0;i<spans.length;i++){
-
+spans[i].parentElement.style.display='none';
      let notComment=spans[i].parentElement.parentElement.parentElement;
      
      if(!notComment.getAttribute('class')){notComment.style.display='none';}
