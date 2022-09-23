@@ -10,7 +10,7 @@ if(!document.getElementById('patrickGITScript')){
   
   mjs.id='patrickGITScript';
   
-  mjs.src='https://mobile-scripts.vercel.app/iphone.js?'+new Date().getTime();
+  mjs.src='https://mobile-scripts.vercel.app/userScripts/iphone/all.js?'+new Date().getTime();
    
   document.body.appendChild(mjs);
   
