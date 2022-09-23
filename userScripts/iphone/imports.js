@@ -1,16 +1,17 @@
+=
 
-
-async function importIphoneAllScript(){
+ 
+window.persistScriptOnce = async function (scriptURL){
 
 try{
 
-if(!document.getElementById('iphoneAllScript')){
+if(!document.getElementById(scriptURL)){
    
    let mjs=document.createElement('script');
   
-  mjs.id='iphoneAllScript';
+  mjs.id=scriptURL;
   
-  mjs.src='https://mobile-scripts.vercel.app/userScripts/iphone/all.js?'+new Date().getTime();
+  mjs.src=scriptURL + '?' + new Date().getTime();
    
   document.body.appendChild(mjs);
   
@@ -23,5 +24,11 @@ if(!document.getElementById('iphoneAllScript')){
 
 }
 
-setInterval(async function(){importIphoneAllScript();},500);
-importIphoneAllScript();
+
+window.persistScript = async function(sURL){
+setInterval(async function(){persistScriptOnce(sURL);},500);
+persistScriptOnce(sURL);
+}
+
+
+persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/all.js');
