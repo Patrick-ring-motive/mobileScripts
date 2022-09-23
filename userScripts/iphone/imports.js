@@ -12,10 +12,10 @@ if(!document.getElementById(scriptURL)){
   mjs.id=scriptURL;
  
   mjs.rel="stylesheet";
-  mjs.href=scriptURL;
+  
   
   mjs.src=scriptURL + '?' + new Date().getTime();
-   
+   mjs.href=mjs.src;
   document.body.appendChild(mjs);
   
    }
