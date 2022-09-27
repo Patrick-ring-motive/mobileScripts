@@ -11,22 +11,10 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-img{
+img,svg,video,iframe,frame{
 
 filter: invert(1) hue-rotate(180deg);
 
 }
 
-svg{
 
-
-filter:invert(1) hue-rotate(180deg);
-
-
-}
-
-video{
-
-filter:invert(1) hue-rotate(180deg);
-
-}
