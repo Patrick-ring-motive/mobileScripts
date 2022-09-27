@@ -19,7 +19,7 @@ filter: invert(1) hue-rotate(180deg);
 
 div[class^="subredditvars"]  a[href^="\/r\/"]:first-of-type{
   
-#filter: invert(1) hue-rotate(180deg);
+filter: invert(1) hue-rotate(180deg);
 
 }
 
