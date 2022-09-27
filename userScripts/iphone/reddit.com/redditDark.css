@@ -11,9 +11,9 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-div[style*="mobileBannerImage"],div.CommunityHeader-banner,nav.TopNav,nav.OverlayMenu,img,svg,video,iframe,frame{
+Sdiv[style*="mobileBannerImage"],div.CommunityHeader-banner,nav.TopNav,nav.OverlayMenu,img,svg,video,iframe,frame{
 
-#filter: invert(1) hue-rotate(180deg);
+filter: invert(1) hue-rotate(180deg);
 
 }
 
