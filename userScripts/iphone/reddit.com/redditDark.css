@@ -11,7 +11,7 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-div.CommunityHeader-banner,div.CommunityHeader-banner img,nav.TopNav,nav.OverlayMenu,img,svg,video,iframe,frame{
+div.CommunityHeader-banner,nav.TopNav,nav.OverlayMenu,img,svg,video,iframe,frame{
 
 filter: invert(1) hue-rotate(180deg);
 
@@ -23,7 +23,7 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-nav.TopNav svg,nav.TopNav img,nav.OverlayMenu svg,nav.OverlayMenu img{
+nav.TopNav svg,nav.TopNav img,nav.OverlayMenu svg,nav.OverlayMenu img,div.CommunityHeader-banner img{
   
  filter:none; 
   
