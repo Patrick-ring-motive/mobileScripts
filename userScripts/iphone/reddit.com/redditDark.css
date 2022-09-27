@@ -24,3 +24,9 @@ filter:invert(1) hue-rotate(180deg);
 
 
 }
+
+video{
+
+filter:invert(1) hue-rotate(180deg);
+
+}
