@@ -23,7 +23,7 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-nav.TopNav svg,nav.TopNav img,nav.OverlayMenu svg,nav.OverlayMenu img{
+nav.TopNav svg,nav.TopNav img,nav.OverlayMenu svg,nav.OverlayMenu img,div.CommunityHeader-banner img{
   
  filter:none; 
   
