@@ -22,3 +22,10 @@ nav.TopNav svg,nav.TopNav img{
  filter:none; 
   
 }
+
+
+div.PostHeader__post-descriptor-line:after{
+
+visibility:hidden;
+
+}
