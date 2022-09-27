@@ -46,7 +46,7 @@ h4,p,span.PostHeader__author-flair,a.PostHeader__post-title-line,div.CommentHead
 
 div.CommunityHeader-banner img{
 
-filter: none;brightness(1.25) saturate(0.5);
+filter: brightness(1.25) saturate(0.5);
 
 }
 
