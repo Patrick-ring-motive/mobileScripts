@@ -11,13 +11,13 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-nav,img,svg,video,iframe,frame{
+nav.TopNav,img,svg,video,iframe,frame{
 
 filter: invert(1) hue-rotate(180deg);
 
 }
 
-nav svg,nav img{
+nav.TopNav svg,nav.TopNav img{
   
  filter:none; 
   
