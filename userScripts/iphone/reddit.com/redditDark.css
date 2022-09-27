@@ -37,7 +37,7 @@ visibility:hidden;
 }
 
 
-p,span.PostHeader__author-flair,a.PostHeader__post-title-line,div.CommentHeader__flair {
+span.PostHeader__author-flair,a.PostHeader__post-title-line,div.CommentHeader__flair {
 
     filter: brightness(0.8) saturate(2);
   color:black;
@@ -46,14 +46,14 @@ p,span.PostHeader__author-flair,a.PostHeader__post-title-line,div.CommentHeader_
 
  div.PostContent__selftext img{
 
-filter: invert(1) hue-rotate(180deg);
+#filter: invert(1) hue-rotate(180deg);
 
 }
 
 div.PostContent__selftext svg{
 
 
-filter: brightness(1.25) saturate(0.5) invert(1) hue-rotate(180deg);
+#filter: brightness(1.25) saturate(0.5) invert(1) hue-rotate(180deg);
 
 
 }
