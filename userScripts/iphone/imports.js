@@ -34,6 +34,7 @@ persistScriptOnce(sURL,elem);
 }
 
 
+persistScript('https://mobile-scripts.vercel.app/lib/allutils.js');
 persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/all.js');
 
 if(document.domain.indexOf('reddit.com')>-1){
