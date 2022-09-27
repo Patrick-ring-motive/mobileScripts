@@ -2,4 +2,19 @@ body{
 
 filter: invert(1);
 
+
+}
+
+img{
+
+filter: invert(1);
+
+}
+
+svg{
+
+
+filter:invert(1);
+
+
 }
