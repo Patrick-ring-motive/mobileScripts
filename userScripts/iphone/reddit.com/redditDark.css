@@ -50,7 +50,7 @@ filter: brightness(1.25) saturate(0.5);
 
 }
 
-div.CommunityHeader-banner image{
+div.CommunityHeader-banner svg{
 
 
 filter:none;
