@@ -23,7 +23,7 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-nav.TopNav svg,nav.TopNav img,nav.OverlayMenu svg,nav.OverlayMenu img,div.CommunityHeader-banner img{
+nav.TopNav svg,nav.TopNav img,nav.OverlayMenu svg,nav.OverlayMenu img,div.CommunityHeader-banner img,div.PostContent__selftext img{
   
  filter:none; 
   
@@ -37,7 +37,7 @@ visibility:hidden;
 }
 
 
-h4,p,span.PostHeader__author-flair,a.PostHeader__post-title-line {
+h4,p,span.PostHeader__author-flair,a.PostHeader__post-title-line,div.CommentHeader__flair,div.PostContent__selftext  {
 
     filter: brightness(0.8) saturate(2);
   color:black;
