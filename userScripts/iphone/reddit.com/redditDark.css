@@ -23,7 +23,7 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-nav.TopNav svg,nav.TopNav img,nav.OverlayMenu svg,nav.OverlayMenu img,div.CommunityHeader-banner img,div.PostContent__selftext img{
+nav.TopNav svg,nav.TopNav img,nav.OverlayMenu svg,nav.OverlayMenu img,div.CommunityHeader-banner img{
   
  filter:none; 
   
@@ -43,3 +43,10 @@ h4,p,span.PostHeader__author-flair,a.PostHeader__post-title-line,div.CommentHead
   color:black;
 
 }
+
+div.PostContent__selftext img{
+
+filter: brightness(1.2) saturate(0.5);
+
+}
+
