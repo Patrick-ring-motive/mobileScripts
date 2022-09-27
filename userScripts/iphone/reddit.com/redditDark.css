@@ -29,3 +29,10 @@ div.PostHeader__post-descriptor-line:after{
 visibility:hidden;
 
 }
+
+
+h1,p,span{
+
+filter:brightness(2);
+
+}
