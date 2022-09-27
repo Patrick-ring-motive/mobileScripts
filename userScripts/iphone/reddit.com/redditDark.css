@@ -17,4 +17,8 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-
+nav svg,nav img{
+  
+ filter:none; 
+  
+}
