@@ -7,8 +7,7 @@ background-color:green;
 
 body{
 
-filter: sepia(0.5) invert(1) hue-rotate(180deg);
-background-color:blue;
+filter: invert(1) hue-rotate(180deg);
 
 }
 
