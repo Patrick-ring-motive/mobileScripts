@@ -11,7 +11,7 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
-nav.TopNav,img,svg,video,iframe,frame{
+nav.TopNav,img,svg,video,iframe,frame,div.CommunityHeader-banner{
 
 filter: invert(1) hue-rotate(180deg);
 
