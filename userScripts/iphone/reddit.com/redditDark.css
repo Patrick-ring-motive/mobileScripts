@@ -7,21 +7,21 @@ background-color:green;
 
 body{
 
-filter: invert(1) hue-rotate(180deg);
+filter: invert(0.8) hue-rotate(180deg);
 background-color:blue;
 
 }
 
 img{
 
-filter: invert(1) hue-rotate(180deg);
+filter: invert(-0.8) hue-rotate(180deg);
 
 }
 
 svg{
 
 
-filter:invert(1) hue-rotate(180deg);
+filter:invert(-0.8) hue-rotate(180deg);
 
 
 }
