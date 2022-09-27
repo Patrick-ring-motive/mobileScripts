@@ -39,7 +39,7 @@ visibility:hidden;
 
 h4,p,span.PostHeader__author-flair,a.PostHeader__post-title-line,div.CommentHeader__flair,div.PostContent__selftext  {
 
-    filter: brightness(0.8) saturate(2);
+    #filter: brightness(0.8) saturate(2);
   color:black;
 
 }
