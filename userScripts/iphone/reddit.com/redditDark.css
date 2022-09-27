@@ -37,8 +37,8 @@ visibility:hidden;
 }
 
 
-h1,p{
+h4,p,span.PostHeader__author-flair{
 
-
+    filter: brightness(0.75) saturate(2);
 
 }
