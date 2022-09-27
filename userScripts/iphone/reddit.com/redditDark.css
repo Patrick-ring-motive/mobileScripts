@@ -46,7 +46,7 @@ h4,p,span.PostHeader__author-flair,a.PostHeader__post-title-line,div.CommentHead
 
  div.PostContent__selftext img{
 
-filter: invert(1) hue-rotate(180deg);
+filter: brightness(1.25) saturate(0.5) invert(1) hue-rotate(180deg);
 
 }
 
