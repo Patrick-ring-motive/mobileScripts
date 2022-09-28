@@ -17,6 +17,13 @@ filter: invert(1) hue-rotate(180deg);
 
 }
 
+video{
+
+background: #111100;
+
+
+}
+
 div[class^="subredditvars"]  a[href^="\/r\/"]:first-of-type{
   
 filter: invert(1) hue-rotate(180deg);
