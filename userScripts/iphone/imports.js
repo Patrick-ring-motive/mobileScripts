@@ -45,3 +45,12 @@ if(document.domain.indexOf('reddit.com')>-1){
 
 
 }
+
+if(document.domain.indexOf('reddit.com')>-1){
+
+
+
+
+
+}
+
