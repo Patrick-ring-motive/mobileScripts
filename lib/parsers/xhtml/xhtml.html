@@ -6,13 +6,16 @@
 	<body bgcolor="#dae1ed">
 
 		<script src="xhtmlForge.js"></script>		
-<script defer>
-//setTimeout(function(){
+<script defer type="module"  loading="lazy" >
+requestIdleCallback(function(){
     
+	
     var t=document.createXHTMLElement('P');
       console.log({t},t.namespaceURI);
+	
+	
     
-//},1);   
+});   
     </script>
 		
 	</body>
