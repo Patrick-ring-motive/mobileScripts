@@ -7,7 +7,7 @@
 
 <body bgcolor="#dae1ed">
 
-  <script src="xmlForge.js"></script>
+  <script src="xml+Forge.js" xmlForgeType="wsdl"></script>
   <script defer type="module" loading="lazy" fetchpriority="low">
     document.addEventListener("DOMContentLoaded", function (event) {
       requestIdleCallback(function () {
@@ -15,7 +15,7 @@
 
 
 
-          var t = document.createXMLElement('p');
+          var t = document.createXHTMLElement('p');
           console.log({t}, t.namespaceURI);
 
 
