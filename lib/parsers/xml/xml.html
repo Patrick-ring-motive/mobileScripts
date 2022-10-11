@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body bgcolor="#dae1ed">
+
+  <script src="xmlForge.js"></script>
+  <script defer type="module" loading="lazy" fetchpriority="low">
+    document.addEventListener("DOMContentLoaded", function (event) {
+      requestIdleCallback(function () {
+        setTimeout(function () {// please just wait until the iframe is loaded before using it
+
+
+
+          var t = document.createXMLElement('P');
+          console.log({t}, t.namespaceURI);
+
+
+
+
+
+        }, 100);
+      });
+    });
+  </script>
+
+</body>
+
+</html>
