@@ -6,6 +6,7 @@ var s='div.wds-global-navigation{top:0;} video{display:none;visibility:hidden;} 
 s=s+' div.ad-placement{display:none;visibility:hidden;} div.afs_ads{display:none;visibility:hidden;} div.ad-slot{display:none;visibility:hidden;} div.ad-slot-placeholder{display:none;visibility:hidden;} ';
 
     s=s+' div.article-featured-video{display:none;visibility:hidden;} div.top-ads-container{display:none;visibility:hidden;} ';
+  s=s+' video{display:none;visibility:hidden;} div.top-ads-container{display:none;visibility:hidden;} ';
     sty.innerHTML=s;
 document.body.appendChild(sty);
 }
