@@ -10,6 +10,7 @@ if (window.location.host.indexOf('bloomberg.com') > -1) {
   s = s + '  div#fortress-verification-container-root{display:none;visibility:hidden;opacity:0;max-height:0px;height:0px;transform: scale(0,0);position:absolute;z-index:-99;} ';
   s = s + '  div[data-component-root="LeaderboardAd"]{display:none;visibility:hidden;opacity:0;max-height:0px;height:0px;transform: scale(0,0);position:absolute;z-index:-99;} ';
   s = s + '  footer{display:none;visibility:hidden;opacity:0;max-height:0px;height:0px;transform: scale(0,0);position:absolute;z-index:-99;} ';
+  s = s + '  div.leaderboard-container{display:none;visibility:hidden;opacity:0;max-height:0px;height:0px;transform: scale(0,0);position:absolute;z-index:-99;} ';
   s = s + '  div[class*="main-column"]{    -webkit-mask-image: none;} ';
 
   sty.innerHTML = s;
