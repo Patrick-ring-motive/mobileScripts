@@ -73,3 +73,12 @@ persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/bloomberg.co
 
 }
 
+if(document.domain.indexOf('wikipedia')>-1){
+
+persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/wikipedia.org/wikipediaAdblock.js');
+
+
+
+}
+
+
