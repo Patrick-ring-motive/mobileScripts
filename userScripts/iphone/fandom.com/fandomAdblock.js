@@ -7,6 +7,16 @@ s=s+' div.ad-placement{display:none;visibility:hidden;} div.afs_ads{display:none
 
     s=s+' div.article-featured-video{display:none;visibility:hidden;} div.top-ads-container{display:none;visibility:hidden;} ';
   s=s+' video{display:none;visibility:hidden;} div.top-ads-container{display:none;visibility:hidden;} ';
+
+
+
+  s=' #siteNotice{display:none;visibility:hidden;opacity:0;max-height:0px;} ';
+s=s+' div.top-ads-container{display:none;visibility:hidden;opacity:0;max-height:0px;}';
+  s=s+' div.wds-banner-notification__container{display:none;visibility:hidden;opacity:0;max-height:0px;}';
+    s=s+' #mixed-content-footer{display:none;visibility:hidden;opacity:0;max-height:0px;}';
+  s=s+'   div.bottom-ads-container{display:none;visibility:hidden;opacity:0;max-height:0px;}';
+  s=s+' #WikiaBarWrapper{display:none;visibility:hidden;opacity:0;max-height:0px;}';
+    s=s+'   div.wds-global-footer__main{display:none;visibility:hidden;opacity:0;max-height:0px;}';
     sty.innerHTML=s;
 document.body.appendChild(sty);
 }
