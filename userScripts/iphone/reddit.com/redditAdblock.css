@@ -1,11 +1,11 @@
-.XPromoBottomBar{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
+.XPromoBottomBar{display:none;visibility:hidden;max-height:0px;max-width:0px;opacity:0;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}
 
-div.ad-banner{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
+div.ad-banner{display:none;visibility:hidden;max-height:0px;max-width:0px;opacity:0;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}
 
-article[style="z-index: 1;"]{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
+article[style="z-index: 1;"]{display:none;visibility:hidden;max-height:0px;max-width:0px;}
 
-a[rel*="sponsored"]{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
+a[rel*="sponsored"]{display:none;visibility:hidden;max-height:0px;max-width:0px;opacity:0;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}
 
-div.PostHeader__promoted-post-descriptor{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
+div.PostHeader__promoted-post-descriptor{display:none;visibility:hidden;max-height:0px;max-width:0px;opacity:0;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}
 
 
