@@ -18,8 +18,8 @@ s=s+' div.top-ads-container{display:none;visibility:hidden;opacity:0;max-height:
   s=s+' #WikiaBarWrapper{display:none;visibility:hidden;opacity:0;max-height:0px;}';
     s=s+'   div.wds-global-footer__main{display:none;visibility:hidden;opacity:0;max-height:0px;}';
     s=s+'   #featured-video__player{display:none;visibility:hidden;opacity:0;max-height:0px;}';
-   s=s+'   div.notifications-box{display:none;visibility:hidden;opacity:0;max-height:0px;transform: scale(0.0);}';
-    s=s+'   div.ad-slot-placeholder{display:none;visibility:hidden;opacity:0;max-height:0px;transform: scale(0.0);}';
+   s=s+'   div.notifications-box{display:none;visibility:hidden;opacity:0;max-height:0px;transform: scale(0.0);position:absolute;z-index:-99;}';
+    s=s+'   div.ad-slot-placeholder{display:none;visibility:hidden;opacity:0;max-height:0px;transform: scale(0.0);position:absolute;z-index:-99;}';
   
     sty.innerHTML=s;
 document.body.appendChild(sty);
