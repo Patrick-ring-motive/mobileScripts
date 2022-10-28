@@ -17,6 +17,8 @@ s=s+' div.top-ads-container{display:none;visibility:hidden;opacity:0;max-height:
   s=s+'   div.bottom-ads-container{display:none;visibility:hidden;opacity:0;max-height:0px;}';
   s=s+' #WikiaBarWrapper{display:none;visibility:hidden;opacity:0;max-height:0px;}';
     s=s+'   div.wds-global-footer__main{display:none;visibility:hidden;opacity:0;max-height:0px;}';
+    s=s+'   #featured-video__player{display:none;visibility:hidden;opacity:0;max-height:0px;}';
+  
     sty.innerHTML=s;
 document.body.appendChild(sty);
 }
