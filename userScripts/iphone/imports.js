@@ -54,3 +54,13 @@ persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/fandom.com/f
 
 }
 
+
+
+if(document.domain.indexOf('wsj.com')>-1){
+
+persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/wsj.com/wsjAdblock.js');
+
+
+
+}
+
