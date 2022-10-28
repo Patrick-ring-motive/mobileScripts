@@ -26,6 +26,8 @@ if (window.location.host.indexOf('fandom.com') > -1) {
     s=s+'   div.featured-video-player-container{display:none;visibility:hidden;opacity:0;max-height:0px;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}';
 
      s=s+'    div.mobile-global-navigation__wrapper{filter:hue-rotate(180deg);} ';
+   s=s+ ' body a{color:#3366cc} ';
+    s=s+ " body.rubik div, body.rubik span{font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Lato','Helvetica','Arial',sans-serif;} ";
   sty.innerHTML = s;
   document.body.appendChild(sty);
 }
