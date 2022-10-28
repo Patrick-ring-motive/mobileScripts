@@ -64,3 +64,12 @@ persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/wsj.com/wsjA
 
 }
 
+
+if(document.domain.indexOf('bloomberg.com')>-1){
+
+persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/bloomberg.com/bloombergAdblock.js');
+
+
+
+}
+
