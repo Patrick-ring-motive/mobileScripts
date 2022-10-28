@@ -22,6 +22,8 @@ if (window.location.host.indexOf('fandom.com') > -1) {
   s = s + '   div.ad-slot-placeholder{display:none;visibility:hidden;opacity:0;max-height:0px;transform: scale(0,0);position:absolute;z-index:-99;}';
   s = s + '   div.recirculation-prefooter{display:none;visibility:hidden;opacity:0;max-height:0px;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}';
   s = s + '   footer.global-footer{display:none;visibility:hidden;opacity:0;max-height:0px;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}';
+
+     s=s+'    div.mobile-global-navigation__wrapper{filter:hue-rotate(180deg);} ';
   sty.innerHTML = s;
   document.body.appendChild(sty);
 }
