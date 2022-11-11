@@ -1,13 +1,13 @@
-   div#wrapper-AD_MOBILE2,
+div#wrapper-AD_MOBILE2,
 div#cx-snippet-overlay,
 div.css-1vlbiim-Container,
-div[aria-label="What to Read Next"],
+##div[aria-label="What to Read Next"],
 div[aria-label="Sponsored Offers"],
 div[data-block="doNotPrint"],
-div.adWrapper,
+##div.adWrapper,
 div[class*="adWrapper"],
 div[class*="SwapContentContainer"],
-footer,
+##footer,
 div[class*="LoginButtonsWrapper"]
 
 {
