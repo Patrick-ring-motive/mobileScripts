@@ -44,6 +44,6 @@ video,
 embed,
 object
 {
-background-color:#FFFFDD;
+background-color:#DDDDFF;
 filter:invert(100%) hue-rotate(180deg);
 }
