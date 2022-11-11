@@ -91,7 +91,9 @@ background-color:#DDEEFF;
 }
 
 
-#big-top-caption{
+#big-top-caption,
+div[class*="HeadlineWrapper"]
+{
 font-color:black;
 background-color:#DDEEFF;
 }
