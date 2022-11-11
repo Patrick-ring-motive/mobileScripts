@@ -92,7 +92,6 @@ filter:invert(100%) hue-rotate(180deg);
 }
 
 html,
-div[class^="css-"],
 body[class="vsc-initialized"],
 div[class*="article-container"],
 figcaption,
@@ -119,9 +118,10 @@ background-color:#221100;
 filter: invert(1);
 }
 
+div[class^="css-"],
 div[class*="WSJTheme--thumb-overlay"]
 {
-   background-color:transparent !important;
+   background-color:transparent;
 }
 
 h3[class*="WSJTheme--headline"]
