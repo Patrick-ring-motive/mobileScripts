@@ -68,8 +68,7 @@ svg,
 video,
 embed,
 object,
-#big-top-caption,
-div[class*="HeadlineContainer"]
+#big-top-caption
 {
 filter:invert(100%) hue-rotate(180deg);
   
