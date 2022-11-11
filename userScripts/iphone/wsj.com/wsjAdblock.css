@@ -82,8 +82,7 @@ right: 0px;
 
 
 button[data-testid="burger-menu"],
-button[class*="style--burger"],
-button[style="cursor:pointer"]
+button[class*="style--burger"]
 {
 background-color: #99DDFF !important; 
 top: 0px;
