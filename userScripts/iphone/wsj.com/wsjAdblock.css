@@ -99,5 +99,5 @@ span[class*="CaptionSpan"]
 {
 font-color:white;
 background-color:#221100;
-filter: invert(1) hue-rotate(180deg);
+filter: invert(1);
 }
