@@ -35,6 +35,6 @@ header[role="banner"]{
 button[data-testid="burger-menu"]{
  background:silver;  
 }
-body{
+body.vsc-initialized{
 background-color:#FFFFDD;
 }
