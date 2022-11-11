@@ -203,5 +203,5 @@ a[class*="SubSectionLink"],
 h3[class*="SectionsTitle"],
 button#sections
 {
-color:#8888BB
+color: #8888BB !important:
 }
