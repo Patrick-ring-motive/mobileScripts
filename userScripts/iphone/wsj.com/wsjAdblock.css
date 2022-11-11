@@ -51,6 +51,7 @@ filter:invert(100%) hue-rotate(180deg);
 body[class="vsc-initialized"],
 div[class*="article-container"],
 figcaption[class*="FigcaptionItem"],
+div[data-type="image"]
 {
    
 background-color:#DDDDFF;
