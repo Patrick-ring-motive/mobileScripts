@@ -49,7 +49,9 @@ filter:invert(100%) hue-rotate(180deg);
 }
 
 body[class="vsc-initialized"],
-div[class*="article-container"]
+div[class*="article-container"],
+figcaption[class*="FigcaptionItem"],
+figcaption[class*="FigcaptionItem"] span
 {
    
 background-color:#DDDDFF;
