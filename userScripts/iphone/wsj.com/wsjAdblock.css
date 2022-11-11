@@ -29,7 +29,8 @@ div[aria-label="Markets summary"],
 #my-account,
 #follow-wsj-world,
 #sign-up-for-newsletters-and-alerts,
-ufc-follow-author-widget
+ufc-follow-author-widget,
+#cx-what-to-read-next
 {
    display: none !important;
    visibility: hidden !important;
@@ -97,7 +98,8 @@ div[data-type="image"],
 div[class*="RibbonContainer"],
 nav[class*="NavContainer"],
 div[class*="WhatsNewsTheme"],
-div[class*="WSJTheme"]
+div[class*="WSJTheme"],
+main
 {
    
 background-color:#DDEEFF;
