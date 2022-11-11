@@ -35,6 +35,14 @@ header[role="banner"]{
 button[data-testid="burger-menu"]{
  background:silver;  
 }
-body.vsc-initialized{
+
+body.vsc-initialized,
+img,
+svg,
+video,
+embed,
+object
+{
 background-color:#FFFFDD;
+filter:invert(100%) hue-rotate(180deg);
 }
