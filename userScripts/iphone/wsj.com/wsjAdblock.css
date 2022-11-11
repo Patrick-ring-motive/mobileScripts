@@ -81,7 +81,6 @@ div[class*="article-container"],
 figcaption,
 div[data-type="image"],
 div[class*="RibbonContainer"],
-div[class*="HeadlineContainer"],
 nav[class*="NavContainer"],
 div[class*="WhatsNewsTheme"],
 div[class*="WSJTheme"]
@@ -95,6 +94,7 @@ background-color:#DDEEFF;
 #big-top-caption,
 h1[class*="BigTopHeadliner"],
 h1[class*="SplitTopDek"],
+div[class*="HeadlineContainer"],
 span[class*="CaptionSpan"]
 {
 font-color:white;
