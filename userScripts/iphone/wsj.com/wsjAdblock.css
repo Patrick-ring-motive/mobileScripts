@@ -111,7 +111,6 @@ div[data-type="image"],
 div[class*="RibbonContainer"],
 nav[class*="NavContainer"],
 div[class*="WhatsNewsTheme"],
-div[class*="WSJTheme"],
 #sections-scroll-target,
 main
 {
@@ -144,7 +143,8 @@ span[class*="Credit"]
 }
 
 div[class^="css-"],
-div[class*="WSJTheme--thumb-overlay"]
+div[class*="WSJTheme--thumb-overlay"],
+div[class*="WSJTheme"]
 {
    background: transparent !important;
    background-color: transparent !important;
