@@ -67,8 +67,7 @@ img,
 svg,
 video,
 embed,
-object,
-#big-top-caption
+object
 {
 filter:invert(100%) hue-rotate(180deg);
   
@@ -95,6 +94,6 @@ h1[class*="BigTopHeadliner"],
 h1[class*="SplitTopDek"],
 span[class*="CaptionSpan"]
 {
-font-color:black;
-background-color:#DDEEFF;
+font-color:white;
+background-color:#221100;
 }
