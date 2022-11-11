@@ -10,7 +10,8 @@ div[class*="adWrapper"],
 div[class*="SwapContentContainer"],
 div[class*="LoginButtonsWrapper"],
 iframe[title="Balance of Power"],
-
+div[data-block="doNotPrint"],
+footer
 {
    display:none;
    visibility:hidden;
@@ -23,7 +24,7 @@ iframe[title="Balance of Power"],
 }
 
 
- #section:after{max-height:0px;} 
+ section:after{max-height:0px;} 
 
 
 header[role="banner"]{
