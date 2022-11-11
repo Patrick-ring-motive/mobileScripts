@@ -78,8 +78,7 @@ div[data-type="image"],
 div[class*="RibbonContainer"],
 div[class*="HeaderContainer"],
 nav[class*="NavContainer"],
-div[class*="WhatsNewsTheme"],
-div[class*="WSJTheme"]
+div[class*="WhatsNewsTheme"]
 {
    
 background-color:#DDEEFF;
