@@ -36,6 +36,7 @@ button[data-testid="burger-menu"]{
  background:silver;  
 }
 
+html,
 body.vsc-initialized,
 img,
 svg,
