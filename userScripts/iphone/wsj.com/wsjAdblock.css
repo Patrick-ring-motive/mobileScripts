@@ -37,6 +37,7 @@ button[data-testid="burger-menu"]{
  background-color: #99DDFF !important; 
 top: 0px;
 left: 0px; 
+border-bottom-right-radius: 7px;
 }
 
 html,
