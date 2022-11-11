@@ -44,7 +44,7 @@ header[role="banner"]{
    border:none !important;
 }
 
-header[role="banner"]:after{
+header[role="banner"]:after,#masthead-container:after{
 border-bottom-left-radius: 7px;
 background-color: #99DDFF !important;
 white-space: pre; 
