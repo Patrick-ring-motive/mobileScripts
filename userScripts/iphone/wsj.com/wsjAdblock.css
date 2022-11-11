@@ -25,14 +25,13 @@ div[class*="card__paywalled_text"] strong,
 a[class*="comment-count"],
 div.audio-subscribe,
 iframe[title="Balance of Power"],
-.div[data-block="doNotPrint"],
 footer,
 div[height="100px"],
 div[aria-label="Markets summary"],
 #my-account,
 #follow-wsj-world,
 #sign-up-for-newsletters-and-alerts,
-ufc-follow-author-widget,
+ufc-follow-author-widget
 
 {
    display:none !important;
