@@ -23,7 +23,7 @@ iframe[title="Balance of Power"],
 }
 
 
- section:after{max-height:0px;} 
+ #section:after{max-height:0px;} 
 
 
 header[role="banner"]{
