@@ -5,6 +5,7 @@ div[aria-label="What to Read Next"],
 div[aria-label="Sponsored Offers"],
 div[data-block="doNotPrint"],
 div.adWrapper,
+div[class*="adWrapper"],
 footer,
 div[class*="LoginButtonsWrapper"]
 
