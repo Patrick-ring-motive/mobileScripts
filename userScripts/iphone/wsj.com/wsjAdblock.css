@@ -41,6 +41,7 @@ white-space: pre;
 content:"WELLSTREET\AJOURNAL";
 font-family: "Times New Roman", Times, serif;
 height: 40px;
+text-align: right;
 
 }
 button[data-testid="burger-menu"]{
