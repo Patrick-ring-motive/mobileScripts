@@ -26,7 +26,9 @@ div[height="100px"],
 div[aria-label="Markets summary"],
 #my-account,
 #follow-wsj-world,
-#sign-up-for-newsletters-and-alerts
+#sign-up-for-newsletters-and-alerts,
+ufc-follow-author-widget,
+
 {
    display:none !important;
    visibility:hidden !important;
