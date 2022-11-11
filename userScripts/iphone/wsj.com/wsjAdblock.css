@@ -199,7 +199,9 @@ filter:unset;
 
 
 span[class*="headlineText"],
-a[class*="SubSectionLink"]
+a[class*="SubSectionLink"],
+h3[class*="SectionsTitle"],
+button#sections
 {
 color:#8888BB
 }
