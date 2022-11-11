@@ -35,8 +35,8 @@ header[role="banner"]{
 }
 
 header[role="banner"]:after{
-
-content:"WELLSTREET\nJOURNAL";
+ white-space: pre; 
+content:"WELLSTREET\AJOURNAL";
 font-family: "Times New Roman", Times, serif;
 
 }
