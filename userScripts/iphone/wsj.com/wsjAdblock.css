@@ -35,7 +35,7 @@ header[role="banner"]{
 }
 
 header[role="banner"]:after{
-border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
 background-color: #99DDFF !important;
 white-space: pre; 
 content:"WELLSTREET\AJOURNAL";
