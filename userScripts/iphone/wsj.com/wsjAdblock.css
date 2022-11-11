@@ -69,8 +69,10 @@ text-align: right;
 }
 
 
-button[data-testid="burger-menu"]{
- background-color: #99DDFF !important; 
+button[data-testid="burger-menu"],
+button[class*="burger"]
+{
+background-color: #99DDFF !important; 
 top: 0px;
 left: 0px; 
 border-bottom-right-radius: 7px;
