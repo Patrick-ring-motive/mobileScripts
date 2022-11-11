@@ -73,7 +73,8 @@ div[class*="article-container"],
 figcaption[class*="Figcaption"],
 div[data-type="image"],
 div[class*="RibbonContainer"],
-div[class*="HeaderContainer"]
+div[class*="HeaderContainer"],
+nav[class*="NavContainer"]
 {
    
 background-color:#DDEEFF;
