@@ -90,7 +90,7 @@ background-color:#DDEEFF;
 
 
 #big-top-caption,
-div[class*="HeadlineWrapper"]
+h1[class*="BigTopHeadliner"]
 {
 font-color:black;
 background-color:#DDEEFF;
