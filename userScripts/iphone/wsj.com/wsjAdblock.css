@@ -107,6 +107,10 @@ background-color: #DDEEFF;
 
 }
 
+body
+{
+background-color: #DDEEFF !important;
+}
 
 #big-top-caption,
 h1[class*="BigTopHeadliner"],
