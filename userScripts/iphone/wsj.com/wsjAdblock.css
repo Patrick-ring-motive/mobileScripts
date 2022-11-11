@@ -33,7 +33,7 @@ header[role="banner"]{
    border:none !important;
 }
 button[data-testid="burger-menu"]{
- background-color: #9999FF !important;  
+ background-color: #99DDFF !important;  
 }
 
 html,
@@ -56,6 +56,6 @@ div[class*="RibbonContainer"],
 div[class*="HeaderContainer"]
 {
    
-background-color:#DDDDFF;
+background-color:#DDEEFF;
 
 }
