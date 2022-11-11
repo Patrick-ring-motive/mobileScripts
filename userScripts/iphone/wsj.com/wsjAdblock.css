@@ -49,7 +49,7 @@ ufc-follow-author-widget,
 header[role="banner"],
 #masthead-container,
 div[class*="mast-head"],
-div[class*="HeaderContainer"],
+div[class*="HeaderContainer"]
 {
    background:transparent !important;
    border:none !important;
