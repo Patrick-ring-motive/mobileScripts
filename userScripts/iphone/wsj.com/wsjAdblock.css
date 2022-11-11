@@ -33,7 +33,7 @@ header[role="banner"]{
    border:none !important;
 }
 button[data-testid="burger-menu"]{
- background:silver;  
+ background-color: #999999 !important;  
 }
 
 html,
@@ -48,7 +48,8 @@ filter:invert(100%) hue-rotate(180deg);
    background-color:#AAAAFF;
 }
 
-body[class="vsc-initialized"]
+body[class="vsc-initialized"],
+div
 {
    
 background-color:#AAAAFF;
