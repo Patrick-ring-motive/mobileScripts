@@ -44,7 +44,7 @@ header[role="banner"]{
    border:none !important;
 }
 
-header[role="banner"]:after,#masthead-container:after{
+#masthead-container:after{
 border-bottom-left-radius: 7px;
 background-color: #99DDFF !important;
 white-space: pre; 
@@ -55,6 +55,20 @@ height: 20px;
 text-align: right;
 
 }
+
+#masthead-container:after{
+border-bottom-left-radius: 7px;
+background-color: #99DDFF !important;
+white-space: pre; 
+content:"WELLSTREET\AJOURNAL";
+font-family: "Times New Roman", Times, serif;
+font-size: 8px;
+height: 20px;
+text-align: right;
+
+}
+
+
 button[data-testid="burger-menu"]{
  background-color: #99DDFF !important; 
 top: 0px;
