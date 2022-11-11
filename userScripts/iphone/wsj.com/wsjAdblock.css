@@ -67,7 +67,8 @@ img,
 svg,
 video,
 embed,
-object
+object,
+div[class*="HeaderContainer"]
 {
 filter:invert(100%) hue-rotate(180deg);
   
@@ -78,7 +79,6 @@ div[class*="article-container"],
 figcaption,
 div[data-type="image"],
 div[class*="RibbonContainer"],
-div[class*="HeaderContainer"],
 nav[class*="NavContainer"],
 div[class*="WhatsNewsTheme"],
 div[class*="WSJTheme"]
