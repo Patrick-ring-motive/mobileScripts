@@ -151,6 +151,13 @@ div[class*="WSJTheme"]
    margin: 0px !important;
 }
 
+div[class*="WSJTheme"]:after
+{
+   background: transparent !important;
+   background-color: transparent !important;
+   margin: 0px !important;
+}
+
 h3[class*="WSJTheme--headline"],
 button[id="sections"]
 {
