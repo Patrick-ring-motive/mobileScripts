@@ -120,12 +120,12 @@ background-color:#221100;
 filter: invert(1);
 }
 
-div[class*="thumb-overlay"]
+div[class*="WSJTheme--thumb-overlay"]
 {
    background-color:transparent !important;
 }
 
-h3[class*="headline"]
+h3[class*="WSJTheme--headline"]
 {
 
 color:#DDEEFF !important;
