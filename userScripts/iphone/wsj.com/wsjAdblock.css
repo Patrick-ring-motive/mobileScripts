@@ -16,7 +16,8 @@ iframe[title="Balance of Power"],
 .div[data-block="doNotPrint"],
 footer,
 div[height="100px"],
-div[aria-label="Markets summary"]
+div[aria-label="Markets summary"],
+#my-account
 {
    display:none;
    visibility:hidden;
