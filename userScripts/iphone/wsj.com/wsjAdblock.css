@@ -1,7 +1,6 @@
 div#wrapper-AD_MOBILE2,
 div#cx-snippet-overlay,
 div.css-1vlbiim-Container,
-##div[aria-label="What to Read Next"],
 a[aria-label="WSJ Logo"],
 div[aria-label="Sponsored Offers"],
 div[data-skip-label="Listen To Article"],
@@ -9,7 +8,6 @@ div[class*="article-body-tools"],
 div.adWrapper,
 div[class*="adWrapper"],
 div[class*="SwapContentContainer"],
-##footer,
 div[class*="LoginButtonsWrapper"]
 
 {
