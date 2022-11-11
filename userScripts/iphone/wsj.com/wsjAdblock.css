@@ -111,6 +111,7 @@ div[class*="RibbonContainer"],
 nav[class*="NavContainer"],
 div[class*="WhatsNewsTheme"],
 div[class*="WSJTheme"],
+#sections-scroll-target,
 main
 {
    
