@@ -92,7 +92,7 @@ filter:invert(100%) hue-rotate(180deg);
 }
 
 html,
-body[class="vsc-initialized"],
+body,
 div[class*="article-container"],
 figcaption,
 div[data-type="image"],
@@ -103,7 +103,7 @@ div[class*="WSJTheme"],
 main
 {
    
-background-color:#DDEEFF;
+background-color: #DDEEFF !important;
 
 }
 
