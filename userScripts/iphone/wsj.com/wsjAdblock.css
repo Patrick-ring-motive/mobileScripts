@@ -125,3 +125,10 @@ h3[class*="WSJTheme--headline"]
 color:#DDEEFF !important;
 
 }
+
+div[class*="card__paywalled_text"]
+{
+
+   max-height:none !important;
+
+}
