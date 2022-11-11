@@ -25,4 +25,8 @@ div[class*="LoginButtonsWrapper"]
  section:after{max-height:0px;} 
 
 
-header[role="banner"]{background:transparent;}
+header[role="banner"]{
+   background:transparent;
+   border:none !important;
+}
+
