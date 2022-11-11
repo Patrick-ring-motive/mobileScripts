@@ -67,8 +67,7 @@ img,
 svg,
 video,
 embed,
-object,
-div[class*="HeadlineWrapper"]
+object
 {
 filter:invert(100%) hue-rotate(180deg);
   
@@ -93,6 +92,6 @@ background-color:#DDEEFF;
 #big-top-caption,
 div[class*="HeadlineWrapper"]
 {
-font-color:black;
+font-color:white;
 background-color:#DDEEFF;
 }
