@@ -64,12 +64,13 @@ div[class*="HeaderContainer"]
    background:transparent !important;
    border:none !important;
 }
-
-#masthead-container:after{
+head:after,
+#masthead-container:after
+{
 border-bottom-left-radius: 7px;
 background-color: #99DDFF !important;
 white-space: pre; 
-content:"WELLSTREET\AJOURNAL";
+content:"WELL STREET\AJOURNAL";
 font-family: "Times New Roman", Times, serif;
 font-size: 8px;
 height: 20px;
