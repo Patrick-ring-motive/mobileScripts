@@ -64,7 +64,7 @@ div[class*="HeaderContainer"]
    background:transparent !important;
    border:none !important;
 }
-head:after,
+button[class*="style--burger"]:after,
 #masthead-container:after
 {
 border-bottom-left-radius: 7px;
