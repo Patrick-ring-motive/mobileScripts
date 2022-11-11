@@ -122,6 +122,7 @@ div[class^="css-"],
 div[class*="WSJTheme--thumb-overlay"]
 {
    background-color: transparent !important;
+   margin: 0px !important;
 }
 
 h3[class*="WSJTheme--headline"]
