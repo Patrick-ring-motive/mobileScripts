@@ -69,6 +69,7 @@ video,
 embed,
 object,
 div[class*="HeaderContainer"],
+div[class*="HeadlineContainer"],
 #big-top-caption
 {
 filter:invert(100%) hue-rotate(180deg);
