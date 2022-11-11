@@ -8,7 +8,8 @@ div[class*="article-body-tools"],
 div.adWrapper,
 div[class*="adWrapper"],
 div[class*="SwapContentContainer"],
-div[class*="LoginButtonsWrapper"]
+div[class*="LoginButtonsWrapper"],
+iframe[title="Balance of Power"]
 
 {
    display:none;
