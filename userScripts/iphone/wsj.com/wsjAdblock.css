@@ -14,7 +14,7 @@ div[class*="FollowButton"],
 div[class*="MdSector"],
 div[class*="login-buttons"],
 div[class*="logo-wrapper"],
-div,audio-subscribe,
+div.audio-subscribe,
 iframe[title="Balance of Power"],
 .div[data-block="doNotPrint"],
 footer,
@@ -78,7 +78,8 @@ div[data-type="image"],
 div[class*="RibbonContainer"],
 div[class*="HeaderContainer"],
 nav[class*="NavContainer"],
-div[class*="WhatsNewsTheme"]
+div[class*="WhatsNewsTheme"],
+div[class*="WSJTheme"]
 {
    
 background-color:#DDEEFF;
