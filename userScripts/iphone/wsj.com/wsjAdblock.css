@@ -121,7 +121,7 @@ filter: invert(1);
 div[class^="css-"],
 div[class*="WSJTheme--thumb-overlay"]
 {
-   background-color:transparent;
+   background-color: transparent !important;
 }
 
 h3[class*="WSJTheme--headline"]
