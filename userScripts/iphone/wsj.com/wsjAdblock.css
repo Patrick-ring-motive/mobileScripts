@@ -37,7 +37,7 @@ button[data-testid="burger-menu"]{
 }
 
 html,
-body.vsc-initialized,
+body[class="vsc-initialized"],
 div[aria-label="Markets summary"],
 img,
 svg,
