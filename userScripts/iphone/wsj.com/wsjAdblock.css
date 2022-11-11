@@ -94,7 +94,7 @@ background-color:#DDEEFF;
 h1[class*="BigTopHeadliner"],
 h1[class*="SplitTopDek"],
 div[class*="HeadlineContainer"],
-span[class*="CaptionSpan"]
+.span[class*="CaptionSpan"]
 {
 font-color:white;
 background-color:#221100;
