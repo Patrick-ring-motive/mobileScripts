@@ -33,6 +33,12 @@ header[role="banner"]{
    background:transparent;
    border:none !important;
 }
+
+header[role="banner"]:before{
+
+content:"WELLSTREET";
+
+}
 button[data-testid="burger-menu"]{
  background-color: #99DDFF !important; 
 top: 0px;
