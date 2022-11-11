@@ -88,6 +88,7 @@ video,
 embed,
 object,
 div[class*="HeadlineContainer"],
+div[class*="WSJTheme--thumb-overlay"]
 #big-top-caption
 {
 filter:invert(100%) hue-rotate(180deg);
