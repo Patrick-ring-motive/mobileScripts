@@ -114,9 +114,13 @@ background-color:#DDEEFF;
 h1[class*="BigTopHeadliner"],
 h1[class*="SplitTopDek"],
 div[class*="HeadlineContainer"],
-div[class*="WSJTheme--thumb-overlay"]
 {
 font-color:white;
 background-color:#221100;
 filter: invert(1);
+}
+
+div[class*="WSJTheme--thumb-overlay"]
+{
+   bsckground:transparent;
 }
