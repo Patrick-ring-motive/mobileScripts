@@ -45,6 +45,7 @@ embed,
 object
 {
 filter:invert(100%) hue-rotate(180deg);
+   background-color:#AAAAFF;
 }
 
 body[class="vsc-initialized"]
