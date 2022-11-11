@@ -37,7 +37,6 @@ button[data-testid="burger-menu"]{
 }
 
 html,
-body[class="vsc-initialized"],
 div[aria-label="Markets summary"],
 img,
 svg,
@@ -46,4 +45,11 @@ embed,
 object
 {
 filter:invert(100%) hue-rotate(180deg);
+}
+
+body[class="vsc-initialized"]
+{
+   
+background-color:#DDDDFF;
+
 }
