@@ -42,7 +42,7 @@ div[aria-label="Markets summary"],
 header[role="banner"],
 #masthead-container
 {
-   background:transparent;
+   background:transparent !important;
    border:none !important;
 }
 
@@ -122,12 +122,12 @@ filter: invert(1);
 
 div[class*="WSJTheme--thumb-overlay"]
 {
-   background-color:transparent;
+   background-color:transparent !important;
 }
 
 h3[class*="WSJTheme--headline"]
 {
 
-color:#DDEEFF;
+color:#DDEEFF !important;
 
 }
