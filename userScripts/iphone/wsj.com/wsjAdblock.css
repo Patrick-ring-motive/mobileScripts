@@ -30,7 +30,8 @@ div[aria-label="Markets summary"],
 #follow-wsj-world,
 #sign-up-for-newsletters-and-alerts,
 ufc-follow-author-widget,
-#cx-what-to-read-next
+#cx-what-to-read-next,
+#id="elections2020-banner"
 {
    display: none !important;
    visibility: hidden !important;
