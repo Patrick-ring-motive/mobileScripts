@@ -192,3 +192,8 @@ dev[class*="MoreArticlesInfoSection"]
    color:blue;
 
 }
+
+img[alt="WSJ Buyside Logo"]
+{
+filter:unset;
+}
