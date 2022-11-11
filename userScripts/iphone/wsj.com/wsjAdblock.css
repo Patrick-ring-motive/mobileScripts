@@ -113,13 +113,19 @@ background-color: #DDEEFF !important;
 }
 
 #big-top-caption,
-h1[class*="BigTopHeadliner"],
-h1[class*="SplitTopDek"],
+h1[class*="BigTopHeadline"],
+h1[class*="TopDek"],
 div[class*="HeadlineContainer"]
 {
 font-color:white;
 background-color:#221100;
 filter: invert(1);
+}
+
+span[class*="CaptionSpan"],
+span[class*="Credit"]
+{
+  font-color:#888888; 
 }
 
 div[class^="css-"],
