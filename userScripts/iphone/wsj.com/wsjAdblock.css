@@ -11,7 +11,8 @@ div[class*="SwapContentContainer"],
 div[class*="LoginButtonsWrapper"],
 iframe[title="Balance of Power"],
 div[data-block="doNotPrint"],
-footer
+footer,
+div[height="100px"]
 {
    display:none;
    visibility:hidden;
