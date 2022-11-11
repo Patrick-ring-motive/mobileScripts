@@ -39,7 +39,9 @@ div[aria-label="Markets summary"],
  section:after{max-height:0px;} 
 
 
-header[role="banner"]{
+header[role="banner"],
+#masthead-container
+{
    background:transparent;
    border:none !important;
 }
