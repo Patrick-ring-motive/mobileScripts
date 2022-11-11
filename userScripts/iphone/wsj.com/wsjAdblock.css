@@ -113,7 +113,7 @@ background-color:#DDEEFF;
 #big-top-caption,
 h1[class*="BigTopHeadliner"],
 h1[class*="SplitTopDek"],
-div[class*="HeadlineContainer"],
+div[class*="HeadlineContainer"]
 {
 font-color:white;
 background-color:#221100;
@@ -122,10 +122,11 @@ filter: invert(1);
 
 div[class*="WSJTheme--thumb-overlay"]
 {
-   background:transparent;
+   background-color:transparent;
 }
 
-h3[class*="WSJTheme--headline"]{
+h3[class*="WSJTheme--headline"]
+{
 
 color:#DDEEFF;
 
