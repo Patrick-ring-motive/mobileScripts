@@ -17,6 +17,7 @@ div[class*="FollowButton"],
 div[class*="MdSector"],
 div[class*="login-buttons"],
 div[class*="logo-wrapper"],
+a[class*="comment-count"],
 div.audio-subscribe,
 iframe[title="Balance of Power"],
 .div[data-block="doNotPrint"],
@@ -44,18 +45,6 @@ header[role="banner"],
 {
    background:transparent !important;
    border:none !important;
-}
-
-#masthead-container:after{
-border-bottom-left-radius: 7px;
-background-color: #99DDFF !important;
-white-space: pre; 
-content:"WELLSTREET\AJOURNAL";
-font-family: "Times New Roman", Times, serif;
-font-size: 8px;
-height: 20px;
-text-align: right;
-
 }
 
 #masthead-container:after{
