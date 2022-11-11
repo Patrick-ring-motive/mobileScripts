@@ -92,7 +92,8 @@ filter:invert(100%) hue-rotate(180deg);
 }
 
 html,
-body,
+div[class^="css-"],
+body[class="vsc-initialized"],
 div[class*="article-container"],
 figcaption,
 div[data-type="image"],
