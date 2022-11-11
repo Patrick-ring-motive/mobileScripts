@@ -40,6 +40,7 @@ background-color: #99DDFF !important;
 white-space: pre; 
 content:"WELLSTREET\AJOURNAL";
 font-family: "Times New Roman", Times, serif;
+height: 10px;
 
 }
 button[data-testid="burger-menu"]{
