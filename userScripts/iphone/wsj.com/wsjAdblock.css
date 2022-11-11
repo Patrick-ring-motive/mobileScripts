@@ -76,7 +76,8 @@ figcaption[class*="Figcaption"],
 div[data-type="image"],
 div[class*="RibbonContainer"],
 div[class*="HeaderContainer"],
-nav[class*="NavContainer"]
+nav[class*="NavContainer"],
+div[class*="WhatsNewsTheme"]
 {
    
 background-color:#DDEEFF;
