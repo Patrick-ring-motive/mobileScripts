@@ -26,14 +26,14 @@ div[height="100px"],
 div[aria-label="Markets summary"],
 #my-account
 {
-   display:none;
-   visibility:hidden;
-   opacity:0;
-   max-height:0px;
-   height:0px;
-   transform: scale(0,0);
-   position:absolute;
-   z-index:-99;
+   display:none !important;
+   visibility:hidden !important;
+   opacity:0 !important;
+   max-height:0px !important;
+   height:0px !important;
+   transform: scale(0,0) !important;
+   position:absolute !important;
+   z-index:-99 !important;
 }
 
 
