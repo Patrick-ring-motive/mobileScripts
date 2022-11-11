@@ -196,3 +196,9 @@ img[alt="WSJ Buyside Logo"]
 {
 filter:unset;
 }
+
+
+span[class*="headlineText"]
+{
+color:#8888BB
+}
