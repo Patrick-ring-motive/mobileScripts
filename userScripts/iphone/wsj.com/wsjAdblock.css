@@ -34,9 +34,10 @@ header[role="banner"]{
    border:none !important;
 }
 
-header[role="banner"]:before{
+header[role="banner"]:after{
 
 content:"WELLSTREET";
+font-family: "Times New Roman", Times, serif;
 
 }
 button[data-testid="burger-menu"]{
