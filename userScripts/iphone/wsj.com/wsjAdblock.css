@@ -132,7 +132,7 @@ h2[class*="TopDek"],
 span[class*="CaptionSpan"],
 span[class*="Credit"]
 {
-  font-color: #888888 !important; 
+  color: #888888 !important; 
 }
 
 div[class^="css-"],
