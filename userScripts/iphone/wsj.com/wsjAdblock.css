@@ -151,7 +151,8 @@ div[class*="WSJTheme--thumb-overlay"]
    margin: 0px !important;
 }
 
-h3[class*="WSJTheme--headline"]
+h3[class*="WSJTheme--headline"],
+button[id="sections"]
 {
 
 color:#888888 !important;
@@ -200,8 +201,7 @@ filter:unset;
 
 span[class*="headlineText"],
 a[class*="SubSectionLink"],
-h3[class*="SectionsTitle"],
-button#sections
+h3[class*="SectionsTitle"]
 {
 color: #8888BB !important:
 }
