@@ -71,8 +71,7 @@ text-align: right;
 }
 
 
-button[data-testid="burger-menu"],
-button[class*="burger"][aria-label="Menu"]
+button[data-testid="burger-menu"]
 {
 background-color: #99DDFF !important; 
 top: 0px;
