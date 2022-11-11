@@ -70,7 +70,7 @@ text-align: right;
 
 
 button[data-testid="burger-menu"],
-button[class*="burger"]
+button[class*="burger"][aria-label="Menu"]
 {
 background-color: #99DDFF !important; 
 top: 0px;
