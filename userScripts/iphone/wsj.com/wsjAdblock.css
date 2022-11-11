@@ -138,6 +138,7 @@ span[class*="Credit"]
 div[class^="css-"],
 div[class*="WSJTheme--thumb-overlay"]
 {
+   background: transparent !important;
    background-color: transparent !important;
    margin: 0px !important;
 }
