@@ -2,10 +2,10 @@
 setInterval(async function(){
   
   
-let lnks=document.querySelectorAll('a[href*="deloitte.wsj.com"]');
-for(let i=0;i<lnks.length;i++){
+let dlnks=document.querySelectorAll('a[href*="deloitte.wsj.com"]');
+for(let i=0;i<dlnks.length;i++){
 
-lnks[i].href=lnks[i].href.replace('deloitte.wsj.com','dwsj.webserve.workers.dev');
+dlnks[i].href=dlnks[i].href.replace('deloitte.wsj.com','dwsj.webserve.workers.dev');
 
 }
 
