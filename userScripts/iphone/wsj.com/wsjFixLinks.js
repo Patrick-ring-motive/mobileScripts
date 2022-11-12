@@ -18,8 +18,9 @@ lnks[i].href=lnks[i].href.replace('www.wsj.com','wsj.webserve.workers.dev');
 if(document.querySelector('a[href*="wsjshop.com/"]')){
 
    let dswj =document.querySelector('a[href*="wsjshop.com/"]');
-   dswj.href="https://dwsj.webserve.workers.dev/";
    dswj.innerText='Insights';
+   dswj.href="https://dwsj.webserve.workers.dev/";
+  
 }
 
 },1000);
