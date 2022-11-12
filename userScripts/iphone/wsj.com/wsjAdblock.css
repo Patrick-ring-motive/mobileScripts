@@ -1,5 +1,6 @@
 aside,
 a[href*="https://on.wsj.com"],
+div.wsj-snippet-body:after,
 [class*="WSJTheme--sponsor-link"],
 div[class*="padding-bottom"],
 div[class*="customer-nav"],
