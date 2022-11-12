@@ -123,6 +123,7 @@ video,
 embed,
 object,
 div[class*="HeadlineContainer"],
+div[class*="vidThumb"],
 #big-top-caption
 {
 filter:invert(100%) hue-rotate(180deg);
