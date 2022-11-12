@@ -46,7 +46,8 @@ div[aria-label="Markets summary"],
 #sign-up-for-newsletters-and-alerts,
 ufc-follow-author-widget,
 #cx-what-to-read-next,
-#elections2020-banner
+#elections2020-banner,
+div[display="flex"]>div[width="100%"]>span
 {
    display: none !important;
    visibility: hidden !important;
