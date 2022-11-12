@@ -216,3 +216,6 @@ h3[class*="SectionsTitle"]
 {
 color: #8888BB !important;
 }
+
+
+div[class*="WSJTheme--headline"]{padding:10px;}
