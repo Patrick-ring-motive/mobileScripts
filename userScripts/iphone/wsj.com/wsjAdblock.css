@@ -127,6 +127,7 @@ div[class*="RibbonContainer"],
 nav[class*="NavContainer"],
 div[class*="WhatsNewsTheme"],
 #sections-scroll-target,
+input[type="search"],
 main
 {
    
