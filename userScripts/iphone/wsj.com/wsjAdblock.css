@@ -73,7 +73,8 @@ div[class*="HeaderContainer"]
 
 button[data-testid="burger-menu"]:after,
 button[class*="style--burger"]:after,
-#masthead-container:after
+#masthead-container:after,
+button[style="cursor:pointer"]:after
 {
 border-bottom-left-radius: 7px;
 background-color: #99DDFF !important;
@@ -91,7 +92,8 @@ right: 0px;
 
 
 button[data-testid="burger-menu"],
-button[class*="style--burger"]
+button[class*="style--burger"],
+button[style="cursor:pointer"]
 {
 position: fixed; 
 background-color: #99DDFF !important; 
