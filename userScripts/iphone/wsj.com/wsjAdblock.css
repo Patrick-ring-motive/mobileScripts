@@ -240,6 +240,11 @@ img[alt="WSJ Buyside Logo"]
 filter:unset;
 }
 
+div[class*="full-head-wrapper"]{
+
+z-index:888;
+}
+
 
 span[class*="headlineText"],
 a[class*="SubSectionLink"],
