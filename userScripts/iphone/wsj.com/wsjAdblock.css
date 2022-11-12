@@ -224,4 +224,8 @@ color: #8888BB !important;
 }
 
 
-div[class*="WSJTheme--headline"]{padding:7px;}
+div[class*="WSJTheme--headline"],
+div[class*="WSJTheme--timestamp"]
+{
+   padding:7px;
+}
