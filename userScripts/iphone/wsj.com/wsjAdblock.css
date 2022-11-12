@@ -121,6 +121,7 @@ border-bottom-right-radius: 7px;
 
 html,
 div[class*="videoThumb"],
+div[class*="full-head-wrapper"],
 img,
 svg,
 video,
