@@ -243,6 +243,7 @@ filter:unset;
 div[class*="full-head-wrapper"]{
 position:absolute;
 z-index:888;
+left:0px;
 }
 
 
