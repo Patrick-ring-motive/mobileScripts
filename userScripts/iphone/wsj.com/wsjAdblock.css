@@ -91,7 +91,8 @@ button[class*="style--burger"]
 position: fixed; 
 background-color: #99DDFF !important; 
 top: 0px;
-left: -1.7px;
+left: 0px;
+margin-left: 0px;
 border-bottom-right-radius: 7px;
 }
 
