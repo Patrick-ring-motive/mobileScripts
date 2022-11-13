@@ -34,8 +34,8 @@ var req;
     response = await window.nativeFetch(req);
   
   }else{
-    req=new Request(request.url.replace('api.twitter.com','twitter.webserve.workers.dev/api-twitter'),request);
-     response = await window.nativeFetch(req,headers);
+   // req=new Request(request.url.replace('api.twitter.com','twitter.webserve.workers.dev/api-twitter'),request);
+     response = await window.nativeFetch(request,headers);
   }
 if(typeof request=='object'){
 
