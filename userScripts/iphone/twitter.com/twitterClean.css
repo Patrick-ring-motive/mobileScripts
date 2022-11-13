@@ -1,5 +1,6 @@
 #container,
-#layers>div:nth-child(3)
+#layers>div:nth-child(3),
+#layers>div:nth-child(1)
 {
   
    display: none !important;
