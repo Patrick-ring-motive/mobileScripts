@@ -16,9 +16,9 @@ div[role="button"]
 }
 
 
-a
+body
 {
   
- color: green !important; 
+ filter: hue-rotate(45);
   
 }
