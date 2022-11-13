@@ -16,14 +16,18 @@ div[role="button"]
 }
 
 
-html,
+html
+{
+  
+ filter: hue-rotate(-45);
+  
+}
+
 img,
 svg,
 video,
 embed,
 object
 {
-  
- filter: hue-rotate(-45);
-  
+  filter: hue-rotate(45); 
 }
