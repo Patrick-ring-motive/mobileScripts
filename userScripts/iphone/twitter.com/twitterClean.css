@@ -19,7 +19,7 @@ div[role="button"]
 html
 {
   
- filter: hue-rotate(-45);
+ filter: hue-rotate(-45deg);
   
 }
 
@@ -29,5 +29,5 @@ video,
 embed,
 object
 {
-  filter: hue-rotate(45); 
+  filter: hue-rotate(45deg); 
 }
