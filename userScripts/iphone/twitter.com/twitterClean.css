@@ -1,6 +1,7 @@
 #container,
 #layers>div:nth-child(3),
-#layers>div:nth-child(1)
+#layers>div:nth-child(1),
+div[role="button"]
 {
   
    display: none !important;
