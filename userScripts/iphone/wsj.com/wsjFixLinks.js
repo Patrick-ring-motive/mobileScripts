@@ -24,7 +24,7 @@ setInterval(async function(){
   if(document.querySelector('a[href*="wsjshop.com/"]')){
 
    let dswj =document.querySelector('a[href*="wsjshop.com/"]');
-   dswj.innerText='Insights';
+   dswj.innerText='Consulting';
    dswj.href="https://dwsj.webserve.workers.dev/";
   
 }
