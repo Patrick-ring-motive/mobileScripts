@@ -339,6 +339,10 @@ div[class*="card__paywalled_text"] strong{
    position: absolute !important;
    z-index: -99 !important;
 }
+
+
+a[class*="style--burger-sections-link"],
+div[class*="MoreArticlesInfoSection"],
 dev[class*="MoreArticlesInfoSection"]
 {
 
