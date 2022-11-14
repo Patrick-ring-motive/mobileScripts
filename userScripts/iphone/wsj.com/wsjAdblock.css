@@ -75,6 +75,8 @@ h2[class*="WSJTheme--hover-silver-gray"]
 
 aside,
 iframe,
+a[title="WSJ.COM"]:after,
+a[title="Wellstreet"]:after,
 a[href*="https://wsj.webserve.workers.dev/newsletters"],
 a[href*="https://twitter.com"],
 div[class*="ewsletter"],
@@ -263,11 +265,14 @@ li[class*="style--menu-item"]
   background-color:var(--grey-baseline);
 }
 
+a[title="Wellstreet"],
+a[title="WSJ.COM"],
 li[class*="style--menu-item"]>a[href*="/pro/"]
 {
-colore:blue;
-background-color:var(--off-blue);
+
+background-color:blue;
 }
+
 
 #big-top-caption,
 h1[class*="BigTopHeadliner"],
