@@ -242,6 +242,7 @@ nav[class*="NavContainer"],
 div[class*="WhatsNewsTheme"],
 #sections-scroll-target,
 input[type="search"],
+li[class*="style--menu-item"],
 main
 {
    
@@ -258,8 +259,7 @@ background-color: var(--back-blue) !important;
 #big-top-caption,
 h1[class*="BigTopHeadliner"],
 h1[class*="TopDek"],
-div[class*="HeadlineContainer"],
-li[class*="style--menu-item"]
+div[class*="HeadlineContainer"]
 {
 font-color:white;
 background-color:var(--back-blue-invert);
