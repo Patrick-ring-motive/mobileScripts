@@ -38,7 +38,7 @@ setInterval(async function(){
       spans[i].innerText='';
       }
       
-      if(spans[i].innerText=='NEWSLETTERS'){
+      if(spans[i].innerText.indexOf('NEWSLETTER')>-1){
       spans[i].innerText='';
       }
   
