@@ -42,7 +42,7 @@ setInterval(async function(){
       spans[i].innerText='';
       }
   
-    catch(e){continue;}
+    }catch(e){continue;}
   }
   
   },100);
