@@ -29,5 +29,16 @@ setInterval(async function(){
   
 }
   
+  let spans=document.getElementsByTagName('span');
+  let spans_length=spans.length;
+  for(let i=0;i<spans_length;i++){
+    try{
+      
+      if(spans[i].innerText=='Global Calendar'){
+      spans[i].innerText='';
+      }
   
-  },1000);
+    catch(e){continue;}
+  }
+  
+  },100);
