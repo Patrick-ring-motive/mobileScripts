@@ -262,6 +262,7 @@ span[class*="Credit"]
   color: var(--grey-baseline) !important; 
 }
 
+header[classZ*="style--slimline"]>div[class*="style--overlay"],
 div[class^="css-"],
 div[class*="WSJTheme--thumb-overlay"],
 div[class*="WSJTheme"]
