@@ -375,11 +375,16 @@ width:100%;
 }
 
 
-a[href="https://wsj.webserve.workers.dev/buyside?mod=nav_left_section"],
+
 div[class*="WSJTheme--headline"],
 div[class*="WSJTheme--timestamp"]
 {
    padding:5px;
+}
+
+a[href="https://wsj.webserve.workers.dev/buyside?mod=nav_left_section"]
+{
+padding-top:5px;
 }
 
 img,
