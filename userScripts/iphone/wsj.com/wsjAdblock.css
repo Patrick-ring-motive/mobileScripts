@@ -164,6 +164,7 @@ div[display="flex"]>div[width="100%"]>span
 
 section:after{max-height:0px;} 
 
+div[class*="style--del-container"],
 div[style="background-color:#f4f4f4"],
 header[role="banner"],
 #masthead-container,
