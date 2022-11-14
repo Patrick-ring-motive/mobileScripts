@@ -404,3 +404,9 @@ span[class*="time-to-read"]
   white-space: nowrap;
   
 }
+
+
+a[href*="https://dwsj.webserve.workers.dev"]>img
+{
+max-width:90%;
+}
