@@ -242,7 +242,6 @@ nav[class*="NavContainer"],
 div[class*="WhatsNewsTheme"],
 #sections-scroll-target,
 input[type="search"],
-li[class*="style--menu-item"],
 main
 {
    
@@ -254,6 +253,11 @@ body,
 div[class*="style--more-links"]
 {
 background-color: var(--back-blue) !important;
+}
+
+li[class*="style--menu-item"]
+{
+  background-color:var(--grey-baseline);
 }
 
 #big-top-caption,
