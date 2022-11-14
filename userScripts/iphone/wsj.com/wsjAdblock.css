@@ -20,8 +20,11 @@ a[class*="style--subsection-link"],
 
 }
 
+
+
 span[class*="WSJTheme--listen-to-foe"],
 p[class*="WSJTheme--byline"],
+p[class*="WSJTheme--flashline"],
 span[class*="headlineText"],
 a[class*="SubSectionLink"],
 h3[class*="SectionsTitle"]
