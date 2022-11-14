@@ -10,7 +10,7 @@
 
 *
 {
- padding:1px;
+
  font-weight: 40;
  color:var(--grey-baseline);  
  letter-spacing: 0.05em;
@@ -357,6 +357,11 @@ svg,
 video
 {
    padding:5%;
+}
+
+p,span,h1,h2,h3,pre,a,
+{
+ padding:1px;
 }
 
 div[class*="style--open--"]
