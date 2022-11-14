@@ -45,4 +45,17 @@ setInterval(async function(){
     }catch(e){continue;}
   }
   
+  
+  let wsj=document.querySelectorAll('a[title="WSJ.COM"]');
+  wsj_length=wsj.length;
+  
+    for(let i=0;i<wsj_length;i++){
+    try{
+      
+      wsj[i].innerText = 'WELL STREET HOME';
+      wsj[i].title = 'Wellstreet';
+  
+    }catch(e){continue;}
+  }
+  
   },100);
