@@ -62,6 +62,8 @@ h3[class*="SectionsTitle"]
 color: var(--off-blue) !important;
 }
 
+
+a[class*="style--burger-sections-link"],
 h2[class*="WSJTheme--hover-silver-gray"]
 {
   
