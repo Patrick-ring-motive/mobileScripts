@@ -106,6 +106,7 @@ position:fixed;
 z-index: 999;
 top: 0px;
 right: 0px;
+color:#0274B6;
 }
 
 div[class*="style--burger"],
