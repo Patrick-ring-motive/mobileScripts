@@ -12,7 +12,7 @@
 {
  font-weight: 100;
  color:var(--grey-baseline);  
- letter-spacing: 0.02em;
+ letter-spacing: 0.03em;
  text-shadow:
  -0.01em -0.01em 0 var(--grey-baseline),
   0.01em -0.01em 0 var(--grey-baseline),
