@@ -363,3 +363,10 @@ div[class*="style--open--"]
 poisiton:fixed;
 z-index:999;
 }
+
+span[class*="time-to-read"]
+{
+  
+  white-space: nowrap;
+  
+}
