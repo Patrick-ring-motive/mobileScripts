@@ -265,6 +265,7 @@ li[class*="style--menu-item"]
 li[class*="style--menu-item"]>a[href*="/pro/"]
 {
 colore:blue;
+background-color:var(--off-blue);
 }
 
 #big-top-caption,
