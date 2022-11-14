@@ -182,8 +182,8 @@ height: 20px;
 text-align: right;
 position:fixed;
 z-index: 999;
-top: 0px;
-right: 0px;
+top: 0px !important;
+right: 0px !important;
 color:var(--neon-blue);
 text-shadow:
  -0.01em -0.01em 0 var(--neon-blue),
@@ -204,8 +204,8 @@ button[style="cursor:pointer"]
 {
 position: fixed; 
 background-color: var(--top-cyan) !important; 
-top: 0px;
-left: 0px;
+top: 0px !important;
+left: 0px !important;
 margin-left: 0px;
 padding-left: 0px;
 border-bottom-right-radius: 7px;
