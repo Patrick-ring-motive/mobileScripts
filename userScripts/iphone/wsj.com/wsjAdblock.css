@@ -79,6 +79,7 @@ h2[class*="WSJTheme--hover-silver-gray"]
 
 aside,
 iframe,
+img[src*="large-logo-light.svg"],
 a[title="WSJ.COM"]:after,
 a[title="Wellstreet"]:after,
 a[href*="https://wsj.webserve.workers.dev/newsletters"],
@@ -165,6 +166,7 @@ div[display="flex"]>div[width="100%"]>span
 
 section:after{max-height:0px;} 
 
+section.reusableSlimlineHeader,
 div[class*="style--del-container"],
 div[style="background-color:#f4f4f4"],
 header[role="banner"],
