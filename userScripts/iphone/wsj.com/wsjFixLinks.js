@@ -37,6 +37,10 @@ setInterval(async function(){
       if(spans[i].innerText=='Global Calendar'){
       spans[i].innerText='';
       }
+      
+      if(spans[i].innerText=='NEWSLETTERS'){
+      spans[i].innerText='';
+      }
   
     catch(e){continue;}
   }
