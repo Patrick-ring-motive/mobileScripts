@@ -3,7 +3,7 @@
  color:#888888;  
 }
 
-p[class*="WSJTheme--byline"],
+
 a[class*="style--subsection-link"],
 [class*="WSJTheme"]{
 
@@ -11,6 +11,7 @@ a[class*="style--subsection-link"],
 
 }
 
+p[class*="WSJTheme--byline"],
 span[class*="headlineText"],
 a[class*="SubSectionLink"],
 h3[class*="SectionsTitle"]
