@@ -2,10 +2,14 @@
 {
  color:#888888;  
      text-shadow:
-    -0.1px -0.1px 0 #888888,
-    0.1px -0.1px 0 #888888,
-    -0.1px 0.1px 0 #888888,
-    0.1px 0.1px 0 #888888;
+    -0.2px -0.1px 0 #888888,
+    0.2px -0.1px 0 #888888,
+    -0.2px 0.1px 0 #888888,
+    0.2px 0.1px 0 #888888;
+ 	-webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: #888888;
+  text-stroke-width: 0.2px;
+  text-stroke-color: #888888;
 }
 
 
