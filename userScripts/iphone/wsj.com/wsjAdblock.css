@@ -178,6 +178,7 @@ div[class*="HeaderContainer"]
    border:none !important;
 }
 
+button[aria-label="Menu"]:after,
 div[class*="style--burger"]:after,
 div[class*="style--topics-wrapper"]:after,
 button[data-testid="burger-menu"]:after,
@@ -209,6 +210,7 @@ text-shadow:
   text-stroke-color: var(--neon-blue);
 }
 
+button[aria-label="Menu"],
 div[class*="style--burger"],
 div[class*="style--topics-wrapper"],
 button[data-testid="burger-menu"],
