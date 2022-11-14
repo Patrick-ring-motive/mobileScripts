@@ -23,14 +23,14 @@ setInterval(async function(){
   
   if(document.querySelector('a[href*="wsjshop.com/"]')){
 
-   let dswj =document.querySelector('a[href*="wsjshop.com/"]');
+   let dswj = document.querySelector('a[href*="wsjshop.com/"]');
    dswj.innerText='Consulting';
    dswj.href="https://dwsj.webserve.workers.dev/";
   
 }
-  
+  requestIdleCallback(function(){
   let spans=document.querySelectorAll('h2>span');
-  let spans_length=spans.length;
+  const spans_length=spans.length;
   for(let i=0;i<spans_length;i++){
     try{
       
@@ -47,7 +47,7 @@ setInterval(async function(){
   
   
   let wsj=document.querySelectorAll('a[title="WSJ.COM"]');
-  wsj_length=wsj.length;
+  const wsj_length=wsj.length;
   
     for(let i=0;i<wsj_length;i++){
     try{
@@ -57,5 +57,7 @@ setInterval(async function(){
   
     }catch(e){continue;}
   }
+    
+  });
   
   },100);
