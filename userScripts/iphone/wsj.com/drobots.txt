@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://dwsj.webserve.workers.dev/sitemap-index.xml
