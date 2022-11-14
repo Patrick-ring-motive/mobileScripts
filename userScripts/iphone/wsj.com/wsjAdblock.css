@@ -427,3 +427,10 @@ a[href*="https://dwsj.webserve.workers.dev"]>img
 {
 max-width:90%;
 }
+
+div.card
+{
+
+border:none !important;
+
+}
