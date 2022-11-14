@@ -3,12 +3,22 @@
  color:#888888;  
 }
 
-
+p[class*="WSJTheme--byline"],
+a[class*="style--subsection-link"],
 [class*="WSJTheme"]{
 
    color:#8888BB;
 
 }
+
+span[class*="headlineText"],
+a[class*="SubSectionLink"],
+h3[class*="SectionsTitle"]
+{
+color: #8888BB !important;
+}
+
+
 
 
 
@@ -163,6 +173,7 @@ filter:invert(100%) hue-rotate(180deg);
 html,
 body[class="vsc-initialized"],
 div[class*="article-container"],
+div[class*="style--more-links"],
 figcaption,
 div[data-type="image"],
 div[class*="RibbonContainer"],
@@ -270,18 +281,6 @@ left:0px;
 width:100%;
 }
 
-
-span[class*="headlineText"],
-a[class*="SubSectionLink"],
-h3[class*="SectionsTitle"]
-{
-color: #8888BB !important;
-}
-
-p[class*="WSJTheme--byline"]
-{
-color: #8888BB;
-}
 
 a[href="https://wsj.webserve.workers.dev/buyside?mod=nav_left_section"],
 div[class*="WSJTheme--headline"],
