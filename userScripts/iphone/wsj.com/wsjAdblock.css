@@ -271,6 +271,7 @@ li[class*="style--menu-item"]>a[href*="/pro/"]
 {
 
 background-color:blue;
+  
 }
 
 
@@ -351,7 +352,7 @@ div[class*="MoreArticlesInfoSection"],
 dev[class*="MoreArticlesInfoSection"]
 {
 
-   color:blue;
+   color:blue !important;
 
 }
 
