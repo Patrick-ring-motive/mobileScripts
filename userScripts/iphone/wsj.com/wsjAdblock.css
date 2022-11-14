@@ -260,9 +260,9 @@ h3[class*="SectionsTitle"]
 color: #8888BB !important;
 }
 
-
+a[href="https://wsj.webserve.workers.dev/buyside?mod=nav_left_section"],
 div[class*="WSJTheme--headline"],
 div[class*="WSJTheme--timestamp"]
 {
-   padding:7px;
+   padding:5px;
 }
