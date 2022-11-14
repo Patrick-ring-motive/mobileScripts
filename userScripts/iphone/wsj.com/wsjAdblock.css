@@ -24,6 +24,20 @@
   text-stroke-color: var(--grey-baseline);
 }
 
+div[class*="videoThumb"],
+div[class*="vidThumb"]
+{
+   text-shadow:
+ -0.01em -0.01em 0 var(--neon-blue),
+  0.01em -0.01em 0 var(--neon-blue),
+ -0.01em  0.01em 0 var(--neon-blue),
+  0.01em  0.01em 0 var(--neon-blue);
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: var(--neon-blue);
+  text-stroke-width: 0.2px;
+  text-stroke-color: var(--neon-blue);
+}
+
 
 a[class*="style--subsection-link"],
 [class*="WSJTheme"]{
