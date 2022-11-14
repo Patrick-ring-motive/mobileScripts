@@ -258,7 +258,8 @@ background-color: var(--back-blue) !important;
 #big-top-caption,
 h1[class*="BigTopHeadliner"],
 h1[class*="TopDek"],
-div[class*="HeadlineContainer"]
+div[class*="HeadlineContainer"],
+li[class*="style--menu-item"]
 {
 font-color:white;
 background-color:var(--back-blue-invert);
