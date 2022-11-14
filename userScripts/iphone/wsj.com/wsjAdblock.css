@@ -44,7 +44,12 @@ h3[class*="SectionsTitle"]
 color: var(--off-blue) !important;
 }
 
-
+h2[class*="WSJTheme--hover-silver-gray"]
+{
+  
+  color: var(--grey-baseline);
+  
+}
 
 
 
