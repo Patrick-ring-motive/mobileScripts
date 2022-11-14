@@ -40,6 +40,7 @@ p[class*="WSJTheme--flashline"],
 p[class*="WSJTheme--summary"],
 span[class*="headlineText"],
 a[class*="SubSectionLink"],
+a[class*="style--subsection-link"],
 h3[class*="SectionsTitle"]
 {
 color: var(--off-blue) !important;
