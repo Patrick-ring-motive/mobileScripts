@@ -166,8 +166,7 @@ div[display="flex"]>div[width="100%"]>span
 
 section:after{max-height:0px;} 
 
-div.card,
-section.reusableSlimlineHeader,
+
 div[class*="style--del-container"],
 div[style="background-color:#f4f4f4"],
 header[role="banner"],
@@ -249,6 +248,7 @@ filter:invert(100%) hue-rotate(180deg);
 
 html,
 div.wsj-money,
+div.wsj-jobs,
 body[class="vsc-initialized"],
 div[class*="article-container"],
 div[class*="style--more-links"],
@@ -305,6 +305,8 @@ span[class*="Credit"]
   color: var(--grey-baseline) !important; 
 }
 
+div.card,
+section.reusableSlimlineHeader,
 header[classZ*="style--slimline"]>div[class*="style--overlay"],
 div[class^="css-"],
 div[class*="WSJTheme--thumb-overlay"],
