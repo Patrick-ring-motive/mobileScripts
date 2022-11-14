@@ -229,7 +229,8 @@ color:var(--neon-blue);
 }
 
 html,
-div.wsj-jobs>nav,
+div.wsj-jobs>section.reusableSlimlineHeader>nav,
+div.wsj-money>section.reusableSlimlineHeader>nav,
 a[class*="WSJTheme--foe-logo"],
 div[class*="videoThumb"],
 div[class*="style--burger-menu"],
