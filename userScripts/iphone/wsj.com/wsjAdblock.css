@@ -1,4 +1,7 @@
 aside,
+a[href*="https://wsj.webserve.workers.dev/newsletters"],
+a[href*="https://twitter.com"],
+div[class*="WSJTheme--newsletter"],
 a[title="Newsletters"],
 small[class="deloitte-footnote"],
 a[class*="linked-label__anchor"],
