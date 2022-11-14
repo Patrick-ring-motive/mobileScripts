@@ -80,6 +80,7 @@ h2[class*="WSJTheme--hover-silver-gray"]
 aside,
 iframe,
 img[src*="large-logo-light.svg"],
+div#account,
 a[title="WSJ.COM"]:after,
 a[title="Wellstreet"]:after,
 a[href*="https://wsj.webserve.workers.dev/newsletters"],
@@ -228,6 +229,7 @@ color:var(--neon-blue);
 }
 
 html,
+div.wsj-jobs>nav,
 a[class*="WSJTheme--foe-logo"],
 div[class*="videoThumb"],
 div[class*="style--burger-menu"],
