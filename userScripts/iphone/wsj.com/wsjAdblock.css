@@ -41,6 +41,7 @@ div[class*="WSJTheme--headlineText"]
 }
 
 
+div.wsj-snippet-body>p,
 a[class*="style--subsection-link"],
 [class*="WSJTheme"]{
 
