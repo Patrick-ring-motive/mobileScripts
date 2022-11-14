@@ -25,7 +25,8 @@
 }
 
 div[class*="videoThumb"],
-div[class*="vidThumb"]
+div[class*="vidThumb"],
+div[class*="WSJTheme--headlineText"]
 {
    text-shadow:
  -0.01em -0.01em 0 var(--neon-blue),
