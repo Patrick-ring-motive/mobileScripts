@@ -104,7 +104,7 @@ div[display="flex"]>div[width="100%"]>span
 }
 
 
- section:after{max-height:0px;} 
+section:after{max-height:0px;} 
 
 div[style="background-color:#f4f4f4"],
 header[role="banner"],
@@ -154,6 +154,7 @@ color:#0274B6;
 }
 
 html,
+a[class*="WSJTheme--foe-logo"],
 div[class*="videoThumb"],
 div[class*="style--burger-menu"],
 div[class*="full-head-wrapper"],
