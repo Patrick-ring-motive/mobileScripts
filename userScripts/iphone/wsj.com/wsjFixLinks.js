@@ -28,7 +28,7 @@ setInterval(async function(){
    dswj.href="https://dwsj.webserve.workers.dev/";
   
 }
-  requestIdleCallback(function(){
+ 
   let spans=document.querySelectorAll('h2>span');
   const spans_length=spans.length;
   for(let i=0;i<spans_length;i++){
@@ -58,6 +58,6 @@ setInterval(async function(){
     }catch(e){continue;}
   }
     
-  });
+ 
   
   },100);
