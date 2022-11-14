@@ -260,6 +260,11 @@ li[class*="style--menu-item"]
   background-color:var(--grey-baseline);
 }
 
+li[class*="style--menu-item"]>a[href*="/pro/"]
+{
+colore:blue;
+}
+
 #big-top-caption,
 h1[class*="BigTopHeadliner"],
 h1[class*="TopDek"],
