@@ -12,7 +12,7 @@
 {
  font-weight: 40;
  color:var(--grey-baseline);  
- letter-spacing: 0.03em;
+ letter-spacing: 0.05em;
  text-shadow:
  -0.01em -0.01em 0 var(--grey-baseline),
   0.01em -0.01em 0 var(--grey-baseline),
@@ -238,7 +238,8 @@ background-color: var(--back-blue);
 
 }
 
-body
+body,
+div[class*="style--more-links"]
 {
 background-color: var(--back-blue) !important;
 }
