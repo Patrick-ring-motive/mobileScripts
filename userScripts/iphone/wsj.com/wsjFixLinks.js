@@ -29,7 +29,7 @@ setInterval(async function(){
   
 }
   
-  let spans=document.getElementsByTagName('span');
+  let spans=document.querySelectorAll('h2>span');
   let spans_length=spans.length;
   for(let i=0;i<spans_length;i++){
     try{
