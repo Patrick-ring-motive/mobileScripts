@@ -339,6 +339,13 @@ div[class*="WSJTheme--timestamp"]
    padding:5px;
 }
 
+img,
+svg,
+video
+{
+   padding:5%;
+}
+
 div[class*="style--open--"]
 {
 poisiton:fixed;
