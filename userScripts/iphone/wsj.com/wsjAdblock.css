@@ -243,6 +243,7 @@ filter:invert(100%) hue-rotate(180deg);
 }
 
 html,
+dic.wsj-money,
 body[class="vsc-initialized"],
 div[class*="article-container"],
 div[class*="style--more-links"],
