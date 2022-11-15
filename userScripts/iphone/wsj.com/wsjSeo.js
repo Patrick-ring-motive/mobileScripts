@@ -109,5 +109,39 @@ document.body.appendChild(img);
 }catch(e){continue;}}
   
 await sleep(1);   
-                     
+     
+  for(let i=0;i<1;i++){try{
+   
+   fetch(URL);
+  
+ }catch(e){continue;}}
+ 
 } 
+
+
+async function processLinks(){
+
+seoLink('https://www.google.com/search?q=site%3Awsj.webserve.workers.dev');
+await sleep(100); 
+ 
+ 
+seoLink('https://www.google.com/search?q=site%3Adwsj.webserve.workers.dev');
+await sleep(100); 
+
+seoLink('https://www.google.com/search?q=%22wsj.webserve.workers.dev%22');
+await sleep(100); 
+ 
+seoLink('https://www.google.com/search?q=%22dwsj.webserve.workers.dev%22');
+await sleep(100); 
+ 
+seoLink('https://docs.google.com/gview?url=https://wsj.webserve.workers.dev');
+await sleep(100); 
+ 
+seoLink('https://docs.google.com/gview?url=https://dwsj.webserve.workers.dev');
+await sleep(100); 
+ 
+ 
+}
+
+setTimeout(async function(){processLinks();},10);
+
