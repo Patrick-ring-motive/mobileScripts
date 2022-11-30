@@ -27,7 +27,7 @@ async function hideSponsor() {
   for (let i = 0; i < spsa_length; i++) {
 
 
-    spsa[i].parentElement.parentElement.parentElement.parentElement.style = '   display: none ; visibility: hidden ; opacity: 0 ; max-height: 0px ; height: 0px ; transform: scale(0,0) ; position: absolute ; z-index: -99 ;';
+    spsa[i].parentElement.parentElement.parentElement.style = '   display: none ; visibility: hidden ; opacity: 0 ; max-height: 0px ; height: 0px ; transform: scale(0,0) ; position: absolute ; z-index: -99 ;';
 
 
   }
