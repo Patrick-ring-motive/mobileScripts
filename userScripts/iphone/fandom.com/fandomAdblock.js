@@ -29,5 +29,18 @@ if (window.location.host.indexOf('fandom.com') > -1) {
    s=s+ ' body a{color:#3366cc} ';
     s=s+ " body.rubik div, body.rubik span{font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Lato','Helvetica','Arial',sans-serif;} ";
   sty.innerHTML = s;
-  document.body.appendChild(sty);
+  try{
+  document.head.prepend(sty);
+  }catch(e){
+
+try{
+
+document.body.prepend(sty);
+
+}catch(e){
+
+  document.getElementsByTagName('*')[0].prepend(sty);
+}
+}
+   }
 }
