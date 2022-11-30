@@ -16,7 +16,7 @@ if(!document.getElementById(scriptURL)){
   
   mjs.src=scriptURL + '?' + new Date().getTime();
    mjs.href=mjs.src;
-  document.body.appendChild(mjs);
+  document.head.prepend(mjs);
   
    }
 
