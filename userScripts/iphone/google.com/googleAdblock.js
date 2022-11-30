@@ -6,7 +6,7 @@ async function hideSponsor() {
   for (let i = 0; i < sps_length; i++) {
 
 
-    sps[i].parentElement.parentElement.parentElement.parentElement.style = '   display: none !important; visibility: hidden !important; opacity: 0 !important; max-height: 0px !important; height: 0px !important; transform: scale(0,0) !important; position: absolute !important; z-index: -99 !important;';
+    sps[i].parentElement.parentElement.parentElement.parentElement.style = '   display: none ; visibility: hidden ; opacity: 0 ; max-height: 0px ; height: 0px ; transform: scale(0,0) ; position: absolute ; z-index: -99 ;';
 
 
   }
@@ -17,7 +17,7 @@ async function hideSponsor() {
   for (let i = 0; i < spsw_length; i++) {
 
 
-    spsw[i].parentElement.style = '   display: none !important; visibility: hidden !important; opacity: 0 !important; max-height: 0px !important; height: 0px !important; transform: scale(0,0) !important; position: absolute !important; z-index: -99 !important;';
+    spsw[i].parentElement.style = '   display: none ; visibility: hidden ; opacity: 0 ; max-height: 0px ; height: 0px ; transform: scale(0,0) ; position: absolute ; z-index: -99 ;';
 
 
   }
@@ -27,7 +27,7 @@ async function hideSponsor() {
   for (let i = 0; i < spsa_length; i++) {
 
 
-    spsa[i].parentElement.parentElement.parentElement.parentElement.style = '   display: none !important; visibility: hidden !important; opacity: 0 !important; max-height: 0px !important; height: 0px !important; transform: scale(0,0) !important; position: absolute !important; z-index: -99 !important;';
+    spsa[i].parentElement.parentElement.parentElement.parentElement.style = '   display: none ; visibility: hidden ; opacity: 0 ; max-height: 0px ; height: 0px ; transform: scale(0,0) ; position: absolute ; z-index: -99 ;';
 
 
   }
@@ -37,7 +37,7 @@ async function hideSponsor() {
   for (let i = 0; i < spsh_length; i++) {
 
     if (spsh[i].innerText.toLowerCase().indexOf('sponsor') > -1) {
-      spsh[i].parentElement.parentElement.style = '   display: none !important; visibility: hidden !important; opacity: 0 !important; max-height: 0px !important; height: 0px !important; transform: scale(0,0) !important; position: absolute !important; z-index: -99 !important;';
+      spsh[i].parentElement.parentElement.style = '   display: none ; visibility: hidden ; opacity: 0 ; max-height: 0px ; height: 0px ; transform: scale(0,0) ; position: absolute ; z-index: -99 ;';
     }
 
   }
@@ -48,7 +48,7 @@ async function hideSponsor() {
   for (let i = 0; i < spsg_length; i++) {
 
 
-    spsg[i].parentElement.parentElement.style = '   display: none !important; visibility: hidden !important; opacity: 0 !important; max-height: 0px !important; height: 0px !important; transform: scale(0,0) !important; position: absolute !important; z-index: -99 !important;';
+    spsg[i].parentElement.parentElement.style = '   display: none ; visibility: hidden ; opacity: 0 ; max-height: 0px ; height: 0px ; transform: scale(0,0) ; position: absolute ; z-index: -99 ;';
 
 
   }
