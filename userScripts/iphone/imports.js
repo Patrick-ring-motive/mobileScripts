@@ -97,7 +97,12 @@ if (document.domain.indexOf('bloomberg.com') > -1) {
 if (document.domain.indexOf('wikipedia') > -1) {
 
   /*persistScript('https://wellstreetjournal.pages.dev/alt/css/wellstreet.css','link');*/
+  if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+    
+    persistScript('https://wellstreetjournal.pages.dev/alt/css/wellstreet.css', 'link');
 
+  
+  }
 
   persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/wikipedia.org/wikipediaAdblock.css', 'link');
 
