@@ -116,7 +116,9 @@ if (document.domain.indexOf('yahoo.com') > -1) {
 
 if (document.domain.indexOf('google.com') > -1) {
 
-  /*persistScript('https://wellstreetjournal.pages.dev/alt/css/wellstreet.css','link');*/
+
+
+  persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/google.com/googleAdblock.js');
 
 
   persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/google.com/googleAdblock.css', 'link');
