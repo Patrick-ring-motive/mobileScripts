@@ -16,8 +16,20 @@ if(!document.getElementById(scriptURL)){
   
   mjs.src=scriptURL + '?' + new Date().getTime();
    mjs.href=mjs.src;
-  document.body.appendChild(mjs);
   
+  try{
+  document.head.prepend(mjs);
+  }catch(e){
+
+try{
+
+document.body.prepend(mjs);
+
+}catch(e){
+
+  document.getElementsByTagName('*')[0].prepend(mjs);
+}
+}
    }
 
 
@@ -27,9 +39,16 @@ if(!document.getElementById(scriptURL)){
 
 }
 
+window.persistScriptOnceAsync = async function(sURL,elem){
+
+window.persistScriptOnce(sURL,elem);
+
+}
+
 
 window.persistScript = async function(sURL,elem){
 setInterval(async function(){persistScriptOnce(sURL,elem);},500);
+persistScriptOnceAsync(sURL,elem);
 persistScriptOnce(sURL,elem);
 }
 
