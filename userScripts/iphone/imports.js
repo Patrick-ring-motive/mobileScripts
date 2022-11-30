@@ -16,7 +16,21 @@ if(!document.getElementById(scriptURL)){
   
   mjs.src=scriptURL + '?' + new Date().getTime();
    mjs.href=mjs.src;
+try{
   document.head.prepend(mjs);
+  }catch(e){
+
+try{
+
+document.body.prepend(mjs);
+
+}catch(e){
+
+  document.getElementsByTagName('*')[0].prepend(mjs);
+}
+}
+   }
+
   
    }
 
