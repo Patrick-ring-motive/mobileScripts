@@ -42,5 +42,5 @@ document.body.prepend(sty);
   document.getElementsByTagName('*')[0].prepend(sty);
 }
 }
-   }
+   
 }
