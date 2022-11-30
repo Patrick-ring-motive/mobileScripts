@@ -7,5 +7,19 @@ if (window.location.host.indexOf('wikipedia') > -1) {
   s=s+' div.frb-inline{display:none;visibility:hidden;max-height:0px;height:0px;min-height:0px;}';
 
   sty.innerHTML = s;
-  document.body.appendChild(sty);
+try{
+  document.head.prepend(sty);
+  }catch(e){
+
+try{
+
+document.body.prepend(sty);
+
+}catch(e){
+
+  document.getElementsByTagName('*')[0].prepend(sty);
+}
+}
+
+  
 }

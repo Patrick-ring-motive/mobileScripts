@@ -14,5 +14,17 @@ if (window.location.host.indexOf('bloomberg.com') > -1) {
   s = s + '  div[class*="main-column"]{    -webkit-mask-image: none;} ';
 
   sty.innerHTML = s;
-  document.body.appendChild(sty);
+  try{
+  document.head.prepend(sty);
+  }catch(e){
+
+try{
+
+document.body.prepend(sty);
+
+}catch(e){
+
+  document.getElementsByTagName('*')[0].prepend(sty);
+}
+}
 }
