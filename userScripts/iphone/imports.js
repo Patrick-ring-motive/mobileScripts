@@ -1,7 +1,7 @@
 
 
  
-window.persistScriptOnce = async function (scriptURL,elem){
+window.persistScriptOnce = function (scriptURL,elem){
 
 try{
 
@@ -28,7 +28,7 @@ if(!document.getElementById(scriptURL)){
 }
 
 
-window.persistScript = async function(sURL,elem){
+window.persistScript = function(sURL,elem){
 setInterval(async function(){persistScriptOnce(sURL,elem);},500);
 persistScriptOnce(sURL,elem);
 }
