@@ -1,32 +1,29 @@
 
 
-[id*="google_ads"]{display:none;visibility:hidden;}
-
-[class*="sponsored"]{display:none;visibility:hidden;}
-
-.premium-banner-outer{display:none;visibility:hidden;}
-
-.justify-content-center{display:none;visibility:hidden;}
-
-#divcookie{display:none;visibility:hidden;}
-
-div[id*="adBreak"]{display:none;visibility:hidden;}
-
-div[id*="primis"]{display:none;visibility:hidden;}
-
-div[id*="primis_player"]{display:none;visibility:hidden;}
-
-div[id*="primis_container_div"]{display:none;visibility:hidden;}
-
-#ctl00_cite{display:none;visibility:hidden;}
-
-#frb-main{display:none;visibility:hidden;}
-
-#frb-inline{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
-
-#frb-nag{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
-
-div.XPromoPill{display:none;visibility:hidden;max-height:0px;max-witdh:0px;}
+[id*="google_ads"],
+[class*="sponsored"],
+.premium-banner-outer,
+.justify-content-center,
+#divcookie,
+div[id*="adBreak"],
+div[id*="primis"],
+div[id*="primis_player"],
+div[id*="primis_container_div"],
+#ctl00_cite,
+#frb-main,
+#frb-inline,
+#frb-nag,
+div.XPromoPill
+{
+   display: none !important;
+   visibility: hidden !important;
+   opacity: 0 !important;
+   max-height: 0px !important;
+   height: 0px !important;
+   transform: scale(0,0) !important;
+   position: absolute !important;
+   z-index: -99 !important;
+}
 		 
 .dayMode div.PostHeader__post-descriptor-line:after{background:linear-gradient(90deg,hsla(0,0%,100%,0) 0,#000 70%)}
 		 
