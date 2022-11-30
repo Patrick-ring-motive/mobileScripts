@@ -1,4 +1,4 @@
-if (window.location.host.indexOf('fandom.com') > -1) {
+if (document.domain.indexOf('fandom.com') > -1) {
   var sty = document.createElement('style');
 
 
