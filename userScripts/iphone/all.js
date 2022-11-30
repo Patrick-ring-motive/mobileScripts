@@ -13,3 +13,4 @@ try{
 persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/all.css','link');
 
 
+persistScript('https://mobile-scripts.vercel.app/lib/lazyLoadLinks.js');
