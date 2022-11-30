@@ -69,7 +69,7 @@ if(document.domain.indexOf('reddit.com')>-1){
 
 if(document.domain.indexOf('fandom.com')>-1){
 
-persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/fandom.com/fandomAdblock.js');
+persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/fandom.com/fandomAdblock.css','link');
 
 
 

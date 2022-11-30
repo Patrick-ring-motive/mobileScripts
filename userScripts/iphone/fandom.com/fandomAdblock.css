@@ -1,0 +1,51 @@
+div.wds-global-navigation{top:0;} 
+
+
+video,
+iframe,
+div.article-featured-video,
+div.featured-video__wrapper,
+#ds_cpp,
+footer.wds-global-footer,
+#WikiaBar,
+#WikiaRailWrapper,
+#WikiaRail,
+#mixed-content-footer, iframe[title=advertisement],
+img[alt=Advertisement],
+div.gpt-ad,
+div.ad-placement,
+div.afs_ads,
+div.ad-slot,
+div.ad-slot-placeholder,
+div.article-featured-video,
+div.top-ads-container,
+video,
+div.top-ads-container,
+#siteNotice,
+div.top-ads-container,
+div.wds-banner-notification__container,
+#mixed-content-footer,
+div.bottom-ads-container,
+#WikiaBarWrapper,
+div.wds-global-footer__main,
+#featured-video__player,
+div.notifications-box,
+div.ad-slot-placeholder,
+div.recirculation-prefooter,
+footer.global-footer,
+div.featured-video-player-container
+{
+   display: none !important;
+   visibility: hidden !important;
+   opacity: 0 !important;
+   max-height: 0px !important;
+   height: 0px !important;
+   transform: scale(0,0) !important;
+   position: absolute !important;
+   z-index: -99 !important;
+}
+
+div.mobile-global-navigation__wrapper{filter:hue-rotate(180deg);}
+body a{color:#3366cc}
+body.rubik div, body.rubik span{font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Lato','Helvetica','Arial',sans-serif;} 
+div.mw-parser-output{overflow:hidden;}
