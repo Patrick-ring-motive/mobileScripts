@@ -5,11 +5,11 @@
 // @description  import from git
 // @author       patrick
 // @match        *://*
-// @run-at       document-start
+// @run-at       document-body
 // ==/UserScript==
 
  
-window.persistScriptOnce = async function (scriptURL,elem){
+window.persistScriptOnce = function (scriptURL,elem){
 
 try{
 
@@ -37,7 +37,7 @@ if(!document.getElementById(scriptURL)){
 }
 
 
-window.persistScript = async function(sURL,elem){
+window.persistScript = function(sURL,elem){
 setInterval(async function(){window.persistScriptOnce(sURL,elem);},500);
 window.persistScriptOnce(sURL,elem);
 }
