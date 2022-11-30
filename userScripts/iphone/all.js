@@ -1,3 +1,4 @@
+
 try{
   if(window.location.href.split('/')[2].indexOf('twitter.com')>-1){
 
@@ -7,7 +8,6 @@ try{
 
   }
 }catch(e){}
-
 
 
 persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/all.css','link');
