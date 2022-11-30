@@ -29,7 +29,7 @@ document.body.prepend(mjs);
   document.getElementsByTagName('*')[0].prepend(mjs);
 }
 }
-   }
+   
 
   
    }
