@@ -36,7 +36,7 @@ async function hideSponsor() {
   const spsh_length = spsh.length;
   for (let i = 0; i < spsh_length; i++) {
 
-    if (spsh[i].innerText.toLowerCase().indexOf('sponsor') > -1) {
+    if (spsh[i].textContent.toLowerCase().indexOf('sponsor') > -1) {
       spsh[i].parentElement.parentElement.style = '   display: none ; visibility: hidden ; opacity: 0 ; max-height: 0px ; height: 0px ; transform: scale(0,0) ; position: absolute ; z-index: -99 ;';
     }
 
