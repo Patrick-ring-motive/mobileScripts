@@ -58,7 +58,7 @@ persistScript('https://mobile-scripts.vercel.app/userScripts/iphone/fandom.com/f
 
 if(document.domain.indexOf('wsj.com')>-1){
 
-persistScript('https://wellstreetjournal.pages.dev/alt/css/wellstreet.css','style');
+persistScript('https://wellstreetjournal.pages.dev/alt/css/wellstreet.css','link');
 
 
 
