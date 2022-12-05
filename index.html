@@ -5,26 +5,27 @@
   <meta charset="utf-8">
   <title>title</title>
   <link rel="stylesheet" href="style.css">
+  <script src="./lib/allutils.js"></script>
   <script src="script.js"></script>
   <script>
-  var parser, xmlDoc, htmlDoc;
-var text = "<html><head><meta></head><body><bookstore><book>" +
-"<title>Everyday Italian</title>" +
-"<author>Giada De Laurentiis</author>" +
-"<year>2005</year>" +
-"</book></bookstore></body></html>";
+    var parser, xmlDoc, htmlDoc;
+    var text = "<html><head><meta></head><body><bookstore><book>" +
+      "<title>Everyday Italian</title>" +
+      "<author>Giada De Laurentiis</author>" +
+      "<year>2005</year>" +
+      "</book></bookstore></body></html>";
 
-parser = new DOMParser();
-htmlDoc = parser.parseFromString(text,"text/html");
+    parser = new DOMParser();
+    htmlDoc = parser.parseFromString(text, "text/html");
 
 
-var s = new XMLSerializer();
+    var s = new XMLSerializer();
 
-var str = s.serializeToString(htmlDoc);
-xmlDoc=parser.parseFromString(str,"application/xhtml+xml");
-console.log(htmlDoc);
-console.log(xmlDoc);
-  
+    var str = s.serializeToString(htmlDoc);
+    xmlDoc = parser.parseFromString(str, "application/xhtml+xml");
+    console.log(htmlDoc);
+    console.log(xmlDoc);
+
   </script>
 </head>
 
