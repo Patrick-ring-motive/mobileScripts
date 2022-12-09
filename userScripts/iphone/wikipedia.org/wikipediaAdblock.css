@@ -1,7 +1,8 @@
 div#frb-nag,
 div#frb-inline,
 div.frb-inline,
-div.frb-inline-topbar
+div.frb-inline-topbar,
+div[id*="portalBanner"] 
 {
    display: none !important;
    visibility: hidden !important;
