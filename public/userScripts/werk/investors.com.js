@@ -1,0 +1,91 @@
+
+if(document.domain.indexOf('investors.com')>-1){
+
+
+    init();
+
+
+
+function init(){
+var mycss=document.createElement('style');
+  var s=`
+
+div.QSIPopOver,
+div.broadcast-text,
+li.login-dropdown,
+div[id*="action_insert"],
+div.share,
+span.video-player-container,
+div.social,
+div[class*="signBar"],
+div.market-banner-container,
+div.premium
+[class*="mobileAds"],
+[data-adposition*="mobileAds"],
+div.emptyContainer,
+div.mobile-icon,
+div.mobile-footer-mail,
+div.mobile-logo,
+div.market-promo,
+[class*="investors-paywall-overlay"],
+div.investors-paywall,
+div.marketing-bottom,
+span.investing-resources,
+div[id*="LeaderAd"],
+div.widget-event-calendar,
+div.latestibdBtn,
+a[href*="shop.inverstors.com"],
+div.marketTrend-social,
+span.promoText,
+ul.post-meta>li:nth-child(3),
+div.marketTop,
+div.premium-product,
+div#todaysMarket,
+div.followUs,
+[class*="subscribe"],
+div.icon-box,
+div.product,
+div[id*="ibd-ad"],
+.paywallGradient:after,
+div.site-header-ad
+{
+   display: none !important;
+   visibility: hidden !important;
+   opacity: 0 !important;
+   max-height: 0px !important;
+   height: 0px !important;
+   transform: scale(0,0) !important;
+   position: absolute !important;
+   z-index: -99 !important;
+}
+
+
+div.stockListTable
+{
+
+display:block;
+
+}
+
+`;
+
+mycss.innerHTML=s
+document.head.appendChild(mycss);
+
+}
+
+hideAds();
+setInterval(async function() { hideAds(); }, 500);
+
+
+
+async function hideAds() {
+
+  let closeBtn = document.querySelector('img[src*="svg-close-btn-white"]');
+  if (closeBtn) {
+    closeBtn.click();
+  }
+
+}
+
+}

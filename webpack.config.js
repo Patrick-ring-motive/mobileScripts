@@ -21,7 +21,7 @@ var werkConfig = Object.assign({}, config, {
   entry: "./public/userScripts/werk/compile.js",
   output: {
     path: path.resolve(__dirname, 'public/userScripts/werk'),
-    filename: "cursorCompiled.js"
+    filename: "werkCompiled.js"
   },
 });
 
