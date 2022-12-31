@@ -1,0 +1,13 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="150" y="125" font-size="150" text-anchor="middle" transform="scale(0.75)">🦖</text>
+  <path d="M75 70L105 90L75 110L45 90Z" fill="#FC913A"/>
+  <path d="M225 70L255 90L225 110L195 90Z" fill="#FC913A"/>
+  <path d="M225 150L225 170L75 170L75 150Z" fill="#FC913A"/>
+  <path d="M150 150L150 170L75 170L75 150Z" fill="#FC913A"/>
+  <path d="M45 90L45 130L60 130L60 90Z" fill="#FC913A"/>
+  <path d="M195 90L195 130L180 130L180 90Z" fill="#FC913A"/>
+  <path d="M75 170L75 180L225 180L225 170Z" fill="#FC913A"/>
+  <circle cx="150" cy="80" r="10" fill="#FC913A"/>
+  <circle cx="150" cy="120" r="10" fill="#FC913A"/>
+  <circle cx="150" cy="160" r="10" fill="#FC913A"/>
+</svg>
