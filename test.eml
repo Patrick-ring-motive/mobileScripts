@@ -1,0 +1,33 @@
+MIME-Version: 1.0
+Date: Tue, 13 Jun 2023 14:53:16 -0500
+Message-ID: <CAGi69ek4Lxe42Yt95qqDgNgFDs3fe15tFpwbEwb1Dno9Hg1YMA@mail.gmail.com>
+Subject: test
+From: Patrick Ring <patrick.ring.motive@gmail.com>
+To: "Ring, Patrick" <patrick.ring@usaa.com>
+Content-Type: multipart/alternative; boundary="000000000000bcb5ea05fe082f26"
+
+--000000000000bcb5ea05fe082f26
+Content-Type: text/plain; charset="UTF-8"
+
+Testing
+a
+a
+
+--000000000000bcb5ea05fe082f26
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="ltr"><div style="color:blue">Testing</div>
+<table><tbody><tr><td>a</td></tr><tr><td>a</td></tr></tbody></table>
+<style>
+	tr:nth-child(odd){
+		background-color:green;
+	}
+	div:hover{
+		
+		color:green;
+		
+	}
+	
+</style></div>
+
+--000000000000bcb5ea05fe082f26--
