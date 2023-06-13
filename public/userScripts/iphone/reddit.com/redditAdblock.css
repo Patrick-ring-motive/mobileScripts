@@ -6,6 +6,9 @@ article[style="z-index: 1;"]{display:none;visibility:hidden;max-height:0px;max-w
 
 a[rel*="sponsored"]{display:none;visibility:hidden;max-height:0px;max-width:0px;opacity:0;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}
 
-div.PostHeader__promoted-post-descriptor{display:none;visibility:hidden;max-height:0px;max-width:0px;opacity:0;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}
+div.PostHeader__promoted-post-descriptor,
+[id*="google_ads"],
+[id="tryitLeaderboard"],
+[id^="t3_z"]{display:none;visibility:hidden;max-height:0px;max-width:0px;opacity:0;height:0px;transform: scale(0,0);position:absolute;z-index:-99;}
 
 
