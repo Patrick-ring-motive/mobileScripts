@@ -1,14 +1,10 @@
+if (document.domain.indexOf('investors.com') > -1) {
 
-if(document.domain.indexOf('investors.com')>-1){
+  init();
 
-
-    init();
-
-
-
-function init(){
-var mycss=document.createElement('style');
-  var s=`
+  function init() {
+    var mycss = document.createElement('style');
+    var s = `
 
 div.QSIPopOver,
 div.broadcast-text,
@@ -69,23 +65,23 @@ display:block;
 
 `;
 
-mycss.innerHTML=s
-document.head.appendChild(mycss);
+    mycss.innerHTML = s
+    document.head.appendChild(mycss);
 
-}
-
-hideAds();
-setInterval(async function() { hideAds(); }, 500);
-
-
-
-async function hideAds() {
-
-  let closeBtn = document.querySelector('img[src*="svg-close-btn-white"]');
-  if (closeBtn) {
-    closeBtn.click();
   }
 
-}
+  hideAds();
+  setInterval(async function() {
+    hideAds();
+  }, 500);
+
+  async function hideAds() {
+
+    let closeBtn = document.querySelector('img[src*="svg-close-btn-white"]');
+    if (closeBtn) {
+      closeBtn.click();
+    }
+
+  }
 
 }

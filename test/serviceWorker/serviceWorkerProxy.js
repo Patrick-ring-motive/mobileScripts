@@ -26,8 +26,8 @@ const PRECACHE_URLS = [
 self.addEventListener('install', event => {
   event.waitUntil(
     caches.open(PRECACHE)
-      .then(cache => cache.addAll(PRECACHE_URLS))
-      .then(self.skipWaiting())
+    .then(cache => cache.addAll(PRECACHE_URLS))
+    .then(self.skipWaiting())
   );
 });
 
@@ -48,74 +48,62 @@ self.addEventListener('activate', event => {
 // The fetch handler serves responses for same-origin resources from a cache.
 // If no response is found, it populates the runtime cache with the response
 // from the network before returning it to the page.
-self.addEventListener('fetch', event => {//F
+self.addEventListener('fetch', event => { //F
   // Skip cross-origin requests, like those for Google Analytics.
-//if (event.request.url.startsWith(self.location.origin)) {//A
-    event.respondWith(//B
-     
-     
-     
-      caches.match(event.request).then(cachedResponse => {//C
-        
- 
-       
+  //if (event.request.url.startsWith(self.location.origin)) {//A
+  event.respondWith( //B
 
-        return  fetch(event.request).then(response => {//D
-           
-           var responseClone = response.clone();
-         
-     
-         
-           responseClone.clone().text()
-    .then((text) => {//E
-     console.log(text);
-    });//E
-   
-         
-                                 var bdy=`<!DOCTYPE html>
+    caches.match(event.request).then(cachedResponse => { //C
+
+      return fetch(event.request).then(response => { //D
+
+        var responseClone = response.clone();
+
+        responseClone.clone().text()
+          .then((text) => { //E
+            console.log(text);
+          }); //E
+
+        var bdy = `<!DOCTYPE html>
 <html lang="en" class="no-js">
 <head></head>
 <body>
 test body
 </body>
 </html>`;
- var httpHeaders = { 'Content-Type' : 'text/html', 
-                            'accept-ch' : 'Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version',
-                           'content-encoding' : 'gzip',
-                            'location' : 'https://en.wikipedia.org/'
-                           };
+        var httpHeaders = {
+          'Content-Type': 'text/html',
+          'accept-ch': 'Sec-CH-UA-Arch,Sec-CH-UA-Bitness,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version',
+          'content-encoding': 'gzip',
+          'location': 'https://en.wikipedia.org/'
+        };
 
+        var hdrs = new Headers(httpHeaders);
+        var optns = {
+          status: 200,
+          statusText: 'OK',
+          hdrs
+        };
 
-         var hdrs = new Headers(httpHeaders);
-         var optns  = { status: 200, statusText: 'OK' ,hdrs};
-        
-        var responseAlt = new Response(bdy,optns);
-   
-       
-         
-       if (event.request.url.startsWith(self.location.origin)) {
-           console.log(responseClone);
-          
-              return responseClone;
-       }else{
-       
-       // responseClone.body='bdy';
-           console.log(responseClone);
-          
-              return responseClone;
-       
-       }
-         
-          });//D
-     
-      })//C
-    );//B
-//  }/*A*/
+        var responseAlt = new Response(bdy, optns);
 
+        if (event.request.url.startsWith(self.location.origin)) {
+          console.log(responseClone);
 
-         
+          return responseClone;
+        } else {
 
-  
-   
- 
-});//F
+          // responseClone.body='bdy';
+          console.log(responseClone);
+
+          return responseClone;
+
+        }
+
+      }); //D
+
+    }) //C
+  ); //B
+  //  }/*A*/
+
+}); //F

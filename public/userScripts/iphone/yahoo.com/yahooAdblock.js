@@ -9,16 +9,7 @@
 
 // ==/UserScript==
 
-
-
-
-
-
-
-
 init();
-
-
 
 function init() {
   var mycss = document.createElement('style');
@@ -47,4 +38,9 @@ div[id*="Overlay"]
 
 }
 
-setInterval(function() { let b = document.querySelector('button[aria-label="Close"]'); if (b) { b.click(); } }, 1000);
+setInterval(function() {
+  let b = document.querySelector('button[aria-label="Close"]');
+  if (b) {
+    b.click();
+  }
+}, 1000);

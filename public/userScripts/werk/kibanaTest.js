@@ -40,7 +40,7 @@ if (document.domain.indexOf('tocpelk.usaa.com') > -1) {
         //  logo.style.backgroundSize='contain';
         logo.style.filter = 'grayscale(100%)';
       //https://images.contentstack.io/v3/assets/bltefdd0b53724fa2ce/blt38b131256d241912/5d0cfe3a970556dd5800ebfe/logo-kibana-64-color.svg
-    } catch (e) { }
+    } catch (e) {}
   }, 1000);
   let st = document.createElement('style');
   st.id = 'st';

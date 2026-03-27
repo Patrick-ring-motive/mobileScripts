@@ -1,7 +1,7 @@
 hideAds();
-setInterval(async function() { hideAds(); }, 500);
-
-
+setInterval(async function() {
+  hideAds();
+}, 500);
 
 async function hideAds() {
 

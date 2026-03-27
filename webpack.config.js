@@ -1,8 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
 
-
-
 var config = {
   // TODO: Add common Configuration
   module: {},
