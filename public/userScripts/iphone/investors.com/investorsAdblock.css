@@ -7,8 +7,7 @@ span.video-player-container,
 div.social,
 div[class*="signBar"],
 div.market-banner-container,
-div.premium
-[class*="mobileAds"],
+div.premium [class*="mobileAds"],
 [data-adposition*="mobileAds"],
 div.emptyContainer,
 div.mobile-icon,
@@ -34,21 +33,19 @@ div.followUs,
 div.icon-box,
 div.product,
 div[id*="ibd-ad"],
-div.site-header-ad
-{
-   display: none !important;
-   visibility: hidden !important;
-   opacity: 0 !important;
-   max-height: 0px !important;
-   height: 0px !important;
-   transform: scale(0,0) !important;
-   position: absolute !important;
-   z-index: -99 !important;
+div.site-header-ad {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  max-height: 0px !important;
+  height: 0px !important;
+  transform: scale(0, 0) !important;
+  position: absolute !important;
+  z-index: -99 !important;
 }
 
-div.stockListTable
-{
+div.stockListTable {
 
-display:block;
-  
+  display: block;
+
 }
