@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>  
-  </head>
-  <body>
 
-    <div id="mydiv"></div>
+<head>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
 
-    <script type="text/babel">
-      function Hello() {
+<body>
+
+  <div id="mydiv"></div>
+
+  <script type="text/babel">
+    function Hello() {
       
       axios.get(`https://en.wikipedia.org/`)
   .then(response => {
@@ -29,5 +31,6 @@ console.log(response);
       ReactDOM.render(<Hello />, document.getElementById('mydiv'))
     </script>
 
-  </body>
+</body>
+
 </html>
