@@ -1,5 +1,3 @@
-
-
 [id*="google_ads"],
 [class*="sponsored"],
 .premium-banner-outer,
@@ -13,18 +11,17 @@ div[id*="primis_container_div"],
 #frb-main,
 #frb-inline,
 #frb-nag,
-div.XPromoPill
-{
-   display: none !important;
-   visibility: hidden !important;
-   opacity: 0 !important;
-   max-height: 0px !important;
-   height: 0px !important;
-   transform: scale(0,0) !important;
-   position: absolute !important;
-   z-index: -99 !important;
+div.XPromoPill {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  max-height: 0px !important;
+  height: 0px !important;
+  transform: scale(0, 0) !important;
+  position: absolute !important;
+  z-index: -99 !important;
 }
-		 
-.dayMode div.PostHeader__post-descriptor-line:after{background:linear-gradient(90deg,hsla(0,0%,100%,0) 0,#000 70%)}
-		 
 
+.dayMode div.PostHeader__post-descriptor-line:after {
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0) 0, #000 70%)
+}
