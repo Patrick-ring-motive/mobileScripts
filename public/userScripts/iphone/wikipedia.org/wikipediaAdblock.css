@@ -2,15 +2,13 @@ div#frb-nag,
 div#frb-inline,
 div.frb-inline,
 div.frb-inline-topbar,
-div[id*="portalBanner"] 
-{
-   display: none !important;
-   visibility: hidden !important;
-   opacity: 0 !important;
-   max-height: 0px !important;
-   height: 0px !important;
-   transform: scale(0,0) !important;
-   position: absolute !important;
-   z-index: -99 !important;
+div[id*="portalBanner"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  max-height: 0px !important;
+  height: 0px !important;
+  transform: scale(0, 0) !important;
+  position: absolute !important;
+  z-index: -99 !important;
 }
-
