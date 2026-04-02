@@ -1,5 +1,6 @@
-div.wds-global-navigation{top:0;} 
-
+div.wds-global-navigation {
+  top: 0;
+}
 
 video,
 iframe,
@@ -10,7 +11,8 @@ footer.wds-global-footer,
 #WikiaBar,
 #WikiaRailWrapper,
 #WikiaRail,
-#mixed-content-footer, iframe[title=advertisement],
+#mixed-content-footer,
+iframe[title=advertisement],
 img[alt=Advertisement],
 div.gpt-ad,
 div.ad-placement,
@@ -33,19 +35,30 @@ div.notifications-box,
 div.ad-slot-placeholder,
 div.recirculation-prefooter,
 footer.global-footer,
-div.featured-video-player-container
-{
-   display: none !important;
-   visibility: hidden !important;
-   opacity: 0 !important;
-   max-height: 0px !important;
-   height: 0px !important;
-   transform: scale(0,0) !important;
-   position: absolute !important;
-   z-index: -99 !important;
+div.featured-video-player-container {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  max-height: 0px !important;
+  height: 0px !important;
+  transform: scale(0, 0) !important;
+  position: absolute !important;
+  z-index: -99 !important;
 }
 
-div.mobile-global-navigation__wrapper{filter:hue-rotate(180deg);}
-body a{color:#3366cc}
-body.rubik div, body.rubik span{font-family: -apple-system,'BlinkMacSystemFont','Segoe UI','Roboto','Lato','Helvetica','Arial',sans-serif;} 
-div.mw-parser-output{overflow:hidden;}
+div.mobile-global-navigation__wrapper {
+  filter: hue-rotate(180deg);
+}
+
+body a {
+  color: #3366cc
+}
+
+body.rubik div,
+body.rubik span {
+  font-family: -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+}
+
+div.mw-parser-output {
+  overflow: hidden;
+}
