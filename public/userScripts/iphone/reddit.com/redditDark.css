@@ -1,69 +1,74 @@
-html{
+html {
 
-background-color: #eeeeff;
-
-}
-
-
-body{
-
-filter: invert(1) hue-rotate(180deg);
+  background-color: #eeeeff;
 
 }
 
-div[style*="mobileBannerImage"],div.CommunityHeader-banner,nav.TopNav,nav.OverlayMenu,img,svg,video,iframe,frame{
+body {
 
-filter: invert(1) hue-rotate(180deg);
-
-}
-
-video{
-
-background: #000000;
-
+  filter: invert(1) hue-rotate(180deg);
 
 }
 
-div[class^="subredditvars"]  a[href^="\/r\/"]:first-of-type{
-  
-filter: invert(1) hue-rotate(180deg);
+div[style*="mobileBannerImage"],
+div.CommunityHeader-banner,
+nav.TopNav,
+nav.OverlayMenu,
+img,
+svg,
+video,
+iframe,
+frame {
+
+  filter: invert(1) hue-rotate(180deg);
 
 }
 
-nav.TopNav svg,nav.TopNav img,nav.OverlayMenu svg,nav.OverlayMenu img,div.CommunityHeader-banner img{
-  
- filter:none; 
-  
-}
+video {
 
-
-div.PostHeader__post-descriptor-line:after{
-
-visibility:hidden;
+  background: #000000;
 
 }
 
+div[class^="subredditvars"] a[href^="\/r\/"]:first-of-type {
 
-span.PostHeader__author-flair,a.PostHeader__post-title-line,div.CommentHeader__flair {
+  filter: invert(1) hue-rotate(180deg);
+
+}
+
+nav.TopNav svg,
+nav.TopNav img,
+nav.OverlayMenu svg,
+nav.OverlayMenu img,
+div.CommunityHeader-banner img {
+
+  filter: none;
+
+}
+
+div.PostHeader__post-descriptor-line:after {
+
+  visibility: hidden;
+
+}
+
+span.PostHeader__author-flair,
+a.PostHeader__post-title-line,
+div.CommentHeader__flair {
 
   filter: brightness(0.8) saturate(2);
-  color:black;
+  color: black;
 
 }
 
- div.PostContent__selftext img{
+div.PostContent__selftext img {
 
-#filter: invert(1) hue-rotate(180deg);
-
-}
-
-div.PostContent__selftext svg{
-
-
-#filter: brightness(1.25) saturate(0.5) invert(1) hue-rotate(180deg);
-
+  #filter: invert(1) hue-rotate(180deg);
 
 }
 
+div.PostContent__selftext svg {
 
+  #filter: brightness(1.25) saturate(0.5) invert(1) hue-rotate(180deg);
 
+}
